@@ -1,5 +1,4 @@
 {
-    api: "0.1"
     name: "Freifunk Franken",
     url: "http://freifunk-franken.de",
     
@@ -33,4 +32,6 @@
         routing: "BATMAN",
         vpn: "fastd"
     },
+
+    api: "0.1"
 }
