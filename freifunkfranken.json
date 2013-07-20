@@ -25,7 +25,7 @@
         "stoererhaftung": "VPN nach Rumänien und Slovenien",
         
         "firmware": {
-            "url": "http://firmware.pberg.freifunk.net/attitude_adjustment/12.09/",
+            "url": "https://dev.freifunk-franken.de/firmware/",
             "name": "Freifunk-Franken Firmware"
         },
 
