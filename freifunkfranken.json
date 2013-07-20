@@ -1,37 +1,37 @@
 {
-    name: "Freifunk Franken",
-    url: "http://freifunk-franken.de",
+    "name": "Freifunk Franken",
+    "url": "http://freifunk-franken.de",
     
-    state: {
-        nodes: 75,
-        lastchange: 1374313902,
-        message: "Jeder darf mitmachen!"
+    "state": {
+        "nodes": 75,
+        "lastchange": 1374313902,
+        "message": "Jeder darf mitmachen!"
     },
 
-    location: {
-        city: "Nürnberg",
-        lat: 49.448856931202,
-        lon: 11.082108258271
+    "location": {
+        "city": "Nürnberg",
+        "lat": 49.448856931202,
+        "lon": 11.082108258271
     },
 
-    contact: {
-        email: "fragen@freifunk-franken.de",
-        ml: "franken@freifunk.net",
-        twitter: "FreifunkFranken",
-        facebook: "https://www.facebook.com/FreifunkFranken"
+    "contact": {
+        "email": "fragen@freifunk-franken.de",
+        "ml": "franken@freifunk.net",
+        "twitter": "FreifunkFranken",
+        "facebook": "https://www.facebook.com/FreifunkFranken"
     },
 
-    techDetails: {
-        stoererhaftung: "VPN nach Rumänien und Slovenien",
+    "techDetails": {
+        "stoererhaftung": "VPN nach Rumänien und Slovenien",
         
-        firmware: {
-            url: "http://firmware.pberg.freifunk.net/attitude_adjustment/12.09/",
-            name: "Freifunk-Franken Firmware"
+        "firmware": {
+            "url": "http://firmware.pberg.freifunk.net/attitude_adjustment/12.09/",
+            "name": "Freifunk-Franken Firmware"
         },
 
-        routing: "BATMAN",
-        vpn: "fastd"
+        "routing": "BATMAN",
+        "vpn": "fastd"
     },
 
-    api: "0.1"
+    "api": "0.1"
 }
