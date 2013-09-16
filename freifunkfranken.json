@@ -3,8 +3,8 @@
     "url": "http://freifunk-franken.de",
     
     "state": {
-        "nodes": 89,
-        "lastchange": 1376515514,
+        "nodes": 103,
+        "lastchange": 1379366949,
         "message": "Jeder darf mitmachen!"
     },
 
@@ -22,7 +22,7 @@
     },
 
     "techDetails": {
-        "stoererhaftung": "VPN nach Rumänien und Slovenien",
+        "stoererhaftung": "VPN nach Rumänien und zum Freie Netze e.V.",
         
         "firmware": {
             "url": "https://dev.freifunk-franken.de/firmware/",
