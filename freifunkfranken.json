@@ -2,9 +2,9 @@
     "name": "Freifunk Franken",
     "url": "http://freifunk-franken.de",
     "state": {
-        "nodes": 102,
-        "lastchange": 1379366949,
-    "message": "Jeder darf mitmachen!"
+        "message": "Jeder darf mitmachen!",
+        "nodes": 172,
+        "lastchange": 1383693046
     },
     "location": {
         "city": "Nürnberg",
