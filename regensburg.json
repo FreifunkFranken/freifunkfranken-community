@@ -1,0 +1,35 @@
+{
+    "name": "Freifunk Regensburg",
+    "metacommunity": "Freifunk Franken",
+    "location": {
+        "city": "Regensburg",
+        "lat": 49.031974,
+        "lon": 12.116186
+    },
+    "url": "http://freifunk-franken.de",
+    "state": {
+        "message": "Jeder darf mitmachen!",
+        "nodes": 4,
+        "lastchange": 1384374348
+    },
+    "contact": {
+        "email": "fragen@freifunk-franken.de",
+        "facebook": "https://www.facebook.com/FreifunkFranken",
+        "ml": "http://lists.freifunk.net/mailman/listinfo/franken-freifunk.net",
+        "phone": "+49 9101 7018607",
+        "twitter": "FreifunkFranken"
+    },
+    "techDetails": {
+        "stoererhaftung": "VPN nach Rumänien und zum Freie Netze e.V.",
+        "bootstrap": "http://freifunk-franken.de/checkliste_routerinstallation",
+        "firmware": {
+            "url": "https://dev.freifunk-franken.de/firmware/",
+            "name": "Freifunk-Franken Firmware"
+        },
+        "routing": "BATMAN",
+        "topodata": "https://netmon.freifunk-franken.de/batman.png",
+        "updatemode": "manual over ssh",
+        "vpn": "fastd"
+    },
+    "api": "0.1"
+}
