@@ -6,11 +6,18 @@
         "lat": 49.300833,
         "lon": 10.571667
     },
+    "nodeMaps": [
+        {
+            "url": "https://netmon.freifunk-franken.de/map.php?zoom=14&lat=49.30233&lon=10.57034&layers=B0000TTTTTT",
+            "technicalType": "netmon",
+            "mapType": "geographical"
+        }
+    ],
     "url": "http://freifunk-franken.de",
     "state": {
-        "message": "Jeder darf mitmachen!",
+        "message": "growing...",
         "nodes": 4,
-        "lastchange": 1387317346
+        "lastchange": 1389038179
     },
     "contact": {
         "email": "fragen@freifunk-franken.de",
@@ -31,5 +38,5 @@
         "updatemode": "manual over ssh",
         "vpn": "fastd"
     },
-    "api": "0.1"
+    "api": "0.2.1"
 }

@@ -1,16 +1,23 @@
 {
     "name": "Freifunk Haag/Neuendettelsau",
+    "url": "https://netmon.freifunk-franken.de/map.php?zoom=14&lat=49.28865&lon=10.79837&layers=B0000TTTTTT",
     "metacommunity": "Freifunk Franken",
     "location": {
         "city": "Haag",
         "lat": 49.295278,
         "lon": 10.816111
     },
-    "url": "http://freifunk-franken.de",
+    "nodeMaps": [
+        {
+            "url": "https://netmon.freifunk-franken.de/map.php?zoom=12&lat=49.59401&lon=11.01177&layers=B0000TTTTTT",
+            "technicalType": "netmon",
+            "mapType": "geographical"
+        }
+    ],
     "state": {
-        "message": "Jeder darf mitmachen!",
-        "nodes": 12,
-        "lastchange": 1387317346
+        "message": "growing...",
+        "nodes": 18,
+        "lastchange": 1389038179
     },
     "contact": {
         "email": "fragen@freifunk-franken.de",
@@ -31,5 +38,5 @@
         "updatemode": "manual over ssh",
         "vpn": "fastd"
     },
-    "api": "0.1"
+    "api": "0.2.1"
 }
