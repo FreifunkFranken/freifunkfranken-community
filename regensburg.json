@@ -16,8 +16,8 @@
     "url": "http://freifunk-franken.de",
     "state": {
         "message": "growing...",
-        "nodes": 5,
-        "lastchange": 1394222742
+        "nodes": 0,
+        "lastchange": 1403981200
     },
     "contact": {
         "email": "fragen@freifunk-franken.de",
