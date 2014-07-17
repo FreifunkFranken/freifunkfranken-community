@@ -11,20 +11,30 @@
             "url": "https://netmon.freifunk-franken.de/map.php?zoom=17&lat=50.09241&lon=10.56942&layers=B0000TTTTTT",
             "technicalType": "netmon",
             "mapType": "geographical"
+        },
+        {
+            "url": "https://netmon.freifunk-franken.de/routerlist.php",
+            "technicalType": "netmon",
+            "mapType": "list/status"
         }
     ],
     "url": "http://freifunk-franken.de",
     "state": {
-        "message": "growing...",
-        "nodes": 17,
-        "lastchange": 1394222742
+        "focus": [
+            "infrastructure/backbone",
+            "Public Free Wifi",
+            "Local services and content",
+            "Free internet access"
+        ],
+        "nodes": 16,
+        "lastchange": 1405588960
     },
     "contact": {
         "email": "fragen@freifunk-franken.de",
         "facebook": "https://www.facebook.com/FreifunkFranken",
         "ml": "http://lists.freifunk.net/mailman/listinfo/franken-freifunk.net",
         "phone": "+49 9101 7018607",
-        "twitter": "FreifunkFranken"
+        "twitter": "@FreifunkFranken"
     },
     "techDetails": {
         "stoererhaftung": "VPN nach Rumänien und zum Freie Netze e.V.",
@@ -33,10 +43,20 @@
             "url": "https://dev.freifunk-franken.de/firmware/",
             "name": "Freifunk-Franken Firmware"
         },
-        "routing": "B.A.T.M.A.N advanced",
-        "topodata": "https://netmon.freifunk-franken.de/batman.png",
-        "updatemode": "manual over ssh",
-        "vpn": "fastd"
+        "tld": {
+            "domainname": "fff"
+        },
+        "routing": [
+            "batman-adv",
+            "OLSR"
+        ],
+        "updatemode": [
+            "none"
+        ],
+        "legals": [
+            "vpnnational",
+            "vpninternational"
+        ]
     },
-    "api": "0.2.1"
+    "api": "0.4.1"
 }
