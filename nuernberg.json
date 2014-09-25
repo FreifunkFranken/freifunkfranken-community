@@ -26,7 +26,7 @@
             "Free internet access"
         ],
         "nodes": 70,
-        "lastchange": 1411647807
+        "lastchange": 1411648153
     },
     "contact": {
         "email": "fragen@freifunk-franken.de",
@@ -35,6 +35,16 @@
         "phone": "+49 9101 7018607",
         "irc": "irc://irc.freenode.net/#freifunkfranken",
         "twitter": "@FreifunkFranken"
+    },
+    "support": {
+        "donations": {
+            "campaigns": [
+                {
+                    "provider": "betterplace",
+                    "projectid": "14713"
+                }
+            ]
+        }
     },
     "techDetails": {
         "firmware": {
