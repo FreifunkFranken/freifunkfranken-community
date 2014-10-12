@@ -18,6 +18,13 @@
             "mapType": "list/status"
         }
     ],
+    "timeline": [
+        {
+            "description": "Einrichten der Seite Freifunk Fürth auf wiki.freifunk.net",
+            "timestamp": "2008-05-29",
+            "url": "http://lists.freifunk.net/pipermail/franken-freifunk.net/2009-February/000000.html"
+        }
+    ],
     "url": "http://freifunk-franken.de",
     "state": {
         "focus": [
@@ -25,8 +32,8 @@
             "Public Free Wifi",
             "Free internet access"
         ],
-        "nodes": 40,
-        "lastchange": 1412798891
+        "nodes": 34,
+        "lastchange": 1413136285
     },
     "contact": {
         "email": "fragen@freifunk-franken.de",
@@ -64,5 +71,5 @@
             "vpninternational"
         ]
     },
-    "api": "0.4.3"
+    "api": "0.4.4"
 }
