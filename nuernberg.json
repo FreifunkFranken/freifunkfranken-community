@@ -18,6 +18,20 @@
             "mapType": "list/status"
         }
     ],
+    "timeline": [
+        {
+            "description": "35 Router an die Piratenpartei Nürnberg übergeben",
+            "timestamp": "2013-07-27"
+        },
+        {
+            "description": "Erste Funkstrecke über 1,5 km",
+            "timestamp": "2014-09-29"
+        },
+        {
+            "description": " Dachinstallation im Nachbarschaftshaus Gostenhof kann beginnen",
+            "timestamp": "2014-12-19"
+        }
+    ],
     "url": "http://freifunk-franken.de",
     "state": {
         "focus": [
@@ -25,8 +39,8 @@
             "Public Free Wifi",
             "Free internet access"
         ],
-        "nodes": 42,
-        "lastchange": 1416001476
+        "nodes": 49,
+        "lastchange": 1419634480
     },
     "contact": {
         "email": "fragen@freifunk-franken.de",
@@ -64,5 +78,5 @@
             "vpninternational"
         ]
     },
-    "api": "0.4.4"
+    "api": "0.4.5"
 }

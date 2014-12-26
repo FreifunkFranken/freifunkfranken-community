@@ -18,6 +18,12 @@
             "mapType": "list/status"
         }
     ],
+    "timeline": [
+        {
+            "description": "20 Router an die Piratenpartei Würzburg übergeben",
+            "timestamp": "2013-07-27"
+        }
+    ],
     "url": "http://freifunk-franken.de",
     "state": {
         "focus": [
@@ -26,7 +32,7 @@
             "Free internet access"
         ],
         "nodes": 4,
-        "lastchange": 1416001476
+        "lastchange": 1419634480
     },
     "contact": {
         "email": "fragen@freifunk-franken.de",
@@ -64,5 +70,5 @@
             "vpninternational"
         ]
     },
-    "api": "0.4.4"
+    "api": "0.4.5"
 }

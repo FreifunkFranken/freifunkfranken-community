@@ -2,9 +2,9 @@
     "name": "Freifunk Haßberge",
     "metacommunity": "Freifunk Franken",
     "location": {
-        "city": "Unfinden",
-        "lat": 50.093555895082,
-        "lon": 10.568013390003
+        "city": "Haßfurt",
+        "lat": 50.031944,
+        "lon": 10.506667
     },
     "nodeMaps": [
         {
@@ -18,6 +18,13 @@
             "mapType": "list/status"
         }
     ],
+    "timeline": [
+        {
+            "description": "Erstes regionales Treffen",
+            "timestamp": "2014-12-19",
+            "url": "http://pad.freifunk.net/p/Planung-Ha%C3%9Fberge"
+        }
+    ],
     "url": "http://freifunk-franken.de",
     "state": {
         "focus": [
@@ -25,8 +32,8 @@
             "Public Free Wifi",
             "Free internet access"
         ],
-        "nodes": 25,
-        "lastchange": 1416001476
+        "nodes": 31,
+        "lastchange": 1419634480
     },
     "contact": {
         "email": "fragen@freifunk-franken.de",
@@ -64,5 +71,5 @@
             "vpninternational"
         ]
     },
-    "api": "0.4.4"
+    "api": "0.4.5"
 }

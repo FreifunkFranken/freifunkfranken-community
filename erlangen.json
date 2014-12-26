@@ -20,7 +20,7 @@
     ],
     "timeline": [
         {
-            "description": "Einrichten der Seite Freifunk_Erlangen auf wiki.freifunk.net",
+            "description": "Einrichten der Seite 'Freifunk Erlangen' auf wiki.freifunk.net",
             "timestamp": "2008-09-05",
             "url": "http://wiki.freifunk.net/index.php?title=Freifunk_Erlangen&oldid=4791"
         }
@@ -32,8 +32,8 @@
             "Public Free Wifi",
             "Free internet access"
         ],
-        "nodes": 23,
-        "lastchange": 1416001476
+        "nodes": 29,
+        "lastchange": 1419634480
     },
     "contact": {
         "email": "fragen@freifunk-franken.de",
@@ -71,5 +71,5 @@
             "vpninternational"
         ]
     },
-    "api": "0.4.4"
+    "api": "0.4.5"
 }
