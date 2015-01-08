@@ -3,8 +3,13 @@
     "metacommunity": "Freifunk Franken",
     "location": {
         "city": "Haßfurt",
-        "lat": 50.031944,
-        "lon": 10.506667
+        "lat": 50.0263024,
+        "lon": 10.5156375,
+        "address": {
+            "Name": "Meehaeusle",
+            "Street": "Am Hafen 6",
+            "Zipcode": "97437"
+        }
     },
     "nodeMaps": [
         {
@@ -18,6 +23,13 @@
             "mapType": "list/status"
         }
     ],
+    "networks": {
+        "ipv4": [
+            {
+                "network": "10.50.56.0/22"
+            }
+        ]
+    },
     "timeline": [
         {
             "description": "Erstes regionales Treffen",
@@ -32,8 +44,8 @@
             "Public Free Wifi",
             "Free internet access"
         ],
-        "nodes": 30,
-        "lastchange": 1420571943
+        "nodes": 28,
+        "lastchange": 1420744120
     },
     "contact": {
         "email": "fragen@freifunk-franken.de",

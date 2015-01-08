@@ -3,8 +3,13 @@
     "metacommunity": "Freifunk Franken",
     "location": {
         "city": "Nürnberg",
-        "lat": 49.448856931202,
-        "lon": 11.082108258271
+        "lat": 49.451719442437,
+        "lon": 11.073559012306,
+        "address": {
+            "Name": "Coworking Nürnberg",
+            "Street": "Josephsplatz ",
+            "Zipcode": "90403"
+        }
     },
     "nodeMaps": [
         {
@@ -18,6 +23,13 @@
             "mapType": "list/status"
         }
     ],
+    "networks": {
+        "ipv4": [
+            {
+                "network": "10.50.40.0/21"
+            }
+        ]
+    },
     "timeline": [
         {
             "description": "35 Router an die Piratenpartei Nürnberg übergeben",
@@ -39,8 +51,8 @@
             "Public Free Wifi",
             "Free internet access"
         ],
-        "nodes": 55,
-        "lastchange": 1420571943
+        "nodes": 54,
+        "lastchange": 1420744120
     },
     "contact": {
         "email": "fragen@freifunk-franken.de",
