@@ -18,6 +18,13 @@
             "mapType": "list/status"
         }
     ],
+    "networks": {
+        "ipv4": [
+            {
+                "network": "10.50.72.0/21"
+            }
+        ]
+    },
     "timeline": [
         {
             "description": "20 Router an die Piratenpartei Würzburg übergeben",
@@ -32,7 +39,7 @@
             "Free internet access"
         ],
         "nodes": 4,
-        "lastchange": 1420571943
+        "lastchange": 1420744120
     },
     "contact": {
         "email": "fragen@freifunk-franken.de",
