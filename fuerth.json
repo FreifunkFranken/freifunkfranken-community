@@ -25,6 +25,13 @@
             }
         ]
     },
+    "services": [
+        {
+            "serviceName": "MicroNAS",
+            "serviceDescription": "anonymous FTP (10GB)",
+            "internalUri": "ftp://anonymous@10.50.32.100"
+        }
+    ],
     "timeline": [
         {
             "description": "Einrichten der Seite 'Freifunk Fürth' auf wiki.freifunk.net",
@@ -40,7 +47,7 @@
             "Free internet access"
         ],
         "nodes": 41,
-        "lastchange": 1423212517
+        "lastchange": 1423232076
     },
     "contact": {
         "email": "fragen@freifunk-franken.de",
@@ -78,5 +85,5 @@
             "vpninternational"
         ]
     },
-    "api": "0.4.5"
+    "api": "0.4.6"
 }

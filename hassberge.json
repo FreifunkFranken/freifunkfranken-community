@@ -30,6 +30,16 @@
             }
         ]
     },
+    "services": [
+        {
+            "serviceName": "Webserver und owncloud im Test",
+            "internalUri": "10.50.56.100"
+        },
+        {
+            "serviceName": "Teeworlds-Game-Server",
+            "internalUri": "10.50.56.123"
+        }
+    ],
     "timeline": [
         {
             "description": "Erstes regionales Treffen",
@@ -44,8 +54,8 @@
             "Public Free Wifi",
             "Free internet access"
         ],
-        "nodes": 32,
-        "lastchange": 1423212517
+        "nodes": 31,
+        "lastchange": 1423232076
     },
     "contact": {
         "email": "fragen@freifunk-franken.de",
@@ -83,5 +93,5 @@
             "vpninternational"
         ]
     },
-    "api": "0.4.5"
+    "api": "0.4.6"
 }
