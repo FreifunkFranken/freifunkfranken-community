@@ -18,6 +18,9 @@
             "mapType": "list/status"
         }
     ],
+    "contact": {
+        "facebook": "https://www.facebook.com/pages/Freifunk-W%C3%BCrzburg/1551181611834107"
+    },
     "networks": {
         "ipv4": [
             {
@@ -38,16 +41,8 @@
             "Public Free Wifi",
             "Free internet access"
         ],
-        "nodes": 5,
-        "lastchange": "2015-02-28T09:56:41.877Z"
-    },
-    "contact": {
-        "email": "fragen@freifunk-franken.de",
-        "facebook": "https://www.facebook.com/FreifunkFranken",
-        "ml": "http://lists.freifunk.net/mailman/listinfo/franken-freifunk.net",
-        "phone": "+49 9101 7018607",
-        "irc": "irc://irc.freenode.net/#freifunkfranken",
-        "twitter": "@FreifunkFranken"
+        "nodes": 6,
+        "lastchange": "2015-03-16T07:47:59.056Z"
     },
     "support": {
         "donations": {
