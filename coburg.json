@@ -1,0 +1,68 @@
+{
+    "name": "Freifunk Coburg",
+    "metacommunity": "Freifunk Franken",
+    "location": {
+        "city": "Coburg",
+        "lat": 50.266667,
+        "lon": 10.966667
+    },
+    "nodeMaps": [
+        {
+            "url": "https://netmon.freifunk-franken.de/map.php?zoom=11&lat=50.26513&lon=10.96275&layers=B0000TTTTT",
+            "technicalType": "netmon",
+            "mapType": "geographical"
+        },
+        {
+            "url": "https://netmon.freifunk-franken.de/routerlist.php",
+            "technicalType": "netmon",
+            "mapType": "list/status"
+        }
+    ],
+    "url": "http://freifunk-franken.de",
+    "state": {
+        "focus": [
+            "infrastructure/backbone",
+            "Public Free Wifi",
+            "Free internet access"
+        ],
+        "nodes": 4,
+        "lastchange": "2015-03-19T08:32:31.638Z"
+    },
+    "contact": {
+        "email": "fragen@freifunk-franken.de",
+        "facebook": "https://www.facebook.com/FreifunkFranken",
+        "ml": "http://lists.freifunk.net/mailman/listinfo/franken-freifunk.net",
+        "phone": "+49 9101 7018607",
+        "irc": "irc://irc.freenode.net/#freifunkfranken",
+        "twitter": "@FreifunkFranken"
+    },
+    "support": {
+        "donations": {
+            "campaigns": [
+                {
+                    "provider": "betterplace",
+                    "projectid": "14713"
+                }
+            ]
+        }
+    },
+    "techDetails": {
+        "firmware": {
+            "name": "Freifunk-Franken Firmware",
+            "url": "https://dev.freifunk-franken.de/firmware/",
+            "docs": "https://wiki.freifunk-franken.de/w/Portal:Firmware"
+        },
+        "routing": [
+            "batman-adv",
+            "OLSR"
+        ],
+        "updatemode": [
+            "manual"
+        ],
+        "legals": [
+            "vpnnational",
+            "vpninternational"
+        ]
+    },
+    "api": "0.4.6"
+}
