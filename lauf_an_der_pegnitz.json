@@ -6,6 +6,10 @@
         "lat": 49.510278,
         "lon": 11.277222
     },
+    "contact": {
+        "email": "freifunk@scheese.de",
+        "phone": "+49 170 8117104"
+    },
     "nodeMaps": [
         {
             "url": "https://netmon.freifunk-franken.de/map.php?zoom=12&lat=49.50535&lon=11.27395&layers=B0000TTTTT",
@@ -25,16 +29,8 @@
             "Public Free Wifi",
             "Free internet access"
         ],
-        "nodes": 11,
-        "lastchange": "2015-03-22T13:35:50.223Z"
-    },
-    "contact": {
-        "email": "fragen@freifunk-franken.de",
-        "facebook": "https://www.facebook.com/FreifunkFranken",
-        "ml": "http://lists.freifunk.net/mailman/listinfo/franken-freifunk.net",
-        "phone": "+49 9101 7018607",
-        "irc": "irc://irc.freenode.net/#freifunkfranken",
-        "twitter": "@FreifunkFranken"
+        "nodes": 13,
+        "lastchange": "2015-03-29T12:25:43.495Z"
     },
     "support": {
         "donations": {
