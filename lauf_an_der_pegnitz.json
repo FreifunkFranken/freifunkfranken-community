@@ -8,7 +8,11 @@
     },
     "contact": {
         "email": "freifunk@scheese.de",
-        "phone": "+49 170 8117104"
+        "facebook": "https://www.facebook.com/FreifunkFranken",
+        "ml": "http://lists.freifunk.net/mailman/listinfo/franken-freifunk.net",
+        "phone": "+49 170 8117104",
+        "irc": "irc://irc.freenode.net/#freifunkfranken",
+        "twitter": "@FreifunkFranken"
     },
     "nodeMaps": [
         {
@@ -30,7 +34,7 @@
             "Free internet access"
         ],
         "nodes": 13,
-        "lastchange": "2015-03-29T12:25:43.495Z"
+        "lastchange": "2015-03-29T12:31:46.302Z"
     },
     "support": {
         "donations": {
