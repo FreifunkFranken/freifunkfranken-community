@@ -1,10 +1,19 @@
 {
-    "name": "Freifunk Forchheim",
+    "name": "Freifunk Ebermannstadt",
+    "url": "http://freifunk-ebs.de/",
     "metacommunity": "Freifunk Franken",
     "location": {
         "city": "Ebermannstadt",
         "lat": 49.779167,
         "lon": 11.184722
+    },
+    "contact": {
+        "email": "kontakt@freifunk-ebs.de",
+        "facebook": "https://www.facebook.com/FreifunkFranken",
+        "ml": "http://lists.freifunk.net/mailman/listinfo/franken-freifunk.net",
+        "phone": "+49 9101 7018607",
+        "irc": "irc://irc.freenode.net/#freifunkfranken",
+        "twitter": "@FreifunkFranken"
     },
     "nodeMaps": [
         {
@@ -18,23 +27,21 @@
             "mapType": "list/status"
         }
     ],
-    "url": "http://freifunk-franken.de",
+    "timeline": [
+        {
+            "description": "inFranken.de: Die Ebermannstadter Feuerwehr hat freies Wlan",
+            "timestamp": "2015-04-13",
+            "url": "http://www.infranken.de/regional/forchheim/Die-Ebermannstadter-Feuerwehr-hat-freies-Wlan;art216,1014706"
+        }
+    ],
     "state": {
         "focus": [
             "infrastructure/backbone",
             "Public Free Wifi",
             "Free internet access"
         ],
-        "nodes": 15,
-        "lastchange": "2015-03-29T12:31:46.275Z"
-    },
-    "contact": {
-        "email": "fragen@freifunk-franken.de",
-        "facebook": "https://www.facebook.com/FreifunkFranken",
-        "ml": "http://lists.freifunk.net/mailman/listinfo/franken-freifunk.net",
-        "phone": "+49 9101 7018607",
-        "irc": "irc://irc.freenode.net/#freifunkfranken",
-        "twitter": "@FreifunkFranken"
+        "nodes": 22,
+        "lastchange": "2015-04-21T20:21:43.920Z"
     },
     "support": {
         "donations": {
