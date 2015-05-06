@@ -1,10 +1,19 @@
 {
     "name": "Freifunk Bamberg",
+    "url": "http://www.freifunk-bamberg.de/",
     "metacommunity": "Freifunk Franken",
     "location": {
         "city": "Bamberg",
         "lat": 49.891667,
         "lon": 10.8916672
+    },
+    "contact": {
+        "twitter": "@FreifunkBa",
+        "email": "fragen@freifunk-franken.de",
+        "facebook": "https://www.facebook.com/FreifunkFranken",
+        "ml": "http://lists.freifunk.net/mailman/listinfo/franken-freifunk.net",
+        "phone": "+49 9101 7018607",
+        "irc": "irc://irc.freenode.net/#freifunkfranken"
     },
     "nodeMaps": [
         {
@@ -18,7 +27,12 @@
             "mapType": "list/status"
         }
     ],
-    "url": "http://freifunk-franken.de",
+    "timeline": [
+        {
+            "description": "Freifunk-Bamberg wird Teil von Freifunk-Franken",
+            "timestamp": "2015-05-05"
+        }
+    ],
     "state": {
         "focus": [
             "infrastructure/backbone",
@@ -26,15 +40,7 @@
             "Free internet access"
         ],
         "nodes": 5,
-        "lastchange": "2015-04-21T20:21:43.924Z"
-    },
-    "contact": {
-        "email": "fragen@freifunk-franken.de",
-        "facebook": "https://www.facebook.com/FreifunkFranken",
-        "ml": "http://lists.freifunk.net/mailman/listinfo/franken-freifunk.net",
-        "phone": "+49 9101 7018607",
-        "irc": "irc://irc.freenode.net/#freifunkfranken",
-        "twitter": "@FreifunkFranken"
+        "lastchange": "2015-05-06T19:45:02.233Z"
     },
     "support": {
         "donations": {
@@ -64,5 +70,5 @@
             "vpninternational"
         ]
     },
-    "api": "0.4.6"
+    "api": "0.4.8"
 }

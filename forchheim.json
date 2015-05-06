@@ -27,6 +27,13 @@
             "mapType": "list/status"
         }
     ],
+    "networks": {
+        "ipv4": [
+            {
+                "network": "10.50.60.0/22"
+            }
+        ]
+    },
     "timeline": [
         {
             "description": "inFranken.de: Die Ebermannstadter Feuerwehr hat freies Wlan",
@@ -40,8 +47,8 @@
             "Public Free Wifi",
             "Free internet access"
         ],
-        "nodes": 22,
-        "lastchange": "2015-04-21T20:21:43.920Z"
+        "nodes": 26,
+        "lastchange": "2015-05-06T19:45:02.229Z"
     },
     "support": {
         "donations": {
@@ -71,5 +78,5 @@
             "vpninternational"
         ]
     },
-    "api": "0.4.6"
+    "api": "0.4.8"
 }

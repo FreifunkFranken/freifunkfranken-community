@@ -39,8 +39,8 @@
             "Public Free Wifi",
             "Free internet access"
         ],
-        "nodes": 43,
-        "lastchange": "2015-04-21T20:21:43.910Z"
+        "nodes": 42,
+        "lastchange": "2015-05-06T19:45:02.215Z"
     },
     "contact": {
         "email": "fragen@freifunk-franken.de",
@@ -78,5 +78,5 @@
             "vpninternational"
         ]
     },
-    "api": "0.4.6"
+    "api": "0.4.8"
 }
