@@ -8,8 +8,8 @@
         "lon": 10.8916672
     },
     "contact": {
+        "email": "kontakt@freifunk-bamberg.de",
         "twitter": "@FreifunkBa",
-        "email": "fragen@freifunk-franken.de",
         "facebook": "https://www.facebook.com/FreifunkFranken",
         "ml": "http://lists.freifunk.net/mailman/listinfo/franken-freifunk.net",
         "phone": "+49 9101 7018607",
@@ -27,6 +27,13 @@
             "mapType": "list/status"
         }
     ],
+    "networks": {
+        "ipv4": [
+            {
+                "network": "10.50.60.0/22"
+            }
+        ]
+    },
     "timeline": [
         {
             "description": "Freifunk-Bamberg wird Teil von Freifunk-Franken",
@@ -40,7 +47,7 @@
             "Free internet access"
         ],
         "nodes": 5,
-        "lastchange": "2015-05-06T19:45:02.233Z"
+        "lastchange": "2015-05-07T20:13:17.931Z"
     },
     "support": {
         "donations": {
