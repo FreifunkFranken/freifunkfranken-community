@@ -40,14 +40,21 @@
             "timestamp": "2015-05-05"
         }
     ],
+    "feeds": [
+        {
+            "name": "Kalender",
+            "category": "ics",
+            "url": "https://www.google.com/calendar/ical/ufdsc5q3a308snrrdjn752jato%40group.calendar.google.com/public/basic.ics"
+        }
+    ],
     "state": {
         "focus": [
             "infrastructure/backbone",
             "Public Free Wifi",
             "Free internet access"
         ],
-        "nodes": 5,
-        "lastchange": "2015-05-07T20:13:17.931Z"
+        "nodes": 6,
+        "lastchange": "2015-05-08T07:46:07.320Z"
     },
     "support": {
         "donations": {
