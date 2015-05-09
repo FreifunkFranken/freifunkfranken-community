@@ -47,6 +47,13 @@
             "url": "http://pad.freifunk.net/p/Planung-Ha%C3%9Fberge"
         }
     ],
+    "feeds": [
+        {
+            "name": "Kalender",
+            "category": "ics",
+            "url": "https://www.google.com/calendar/ical/2dsrm900h9iqdao2112527mjt4%40group.calendar.google.com/public/basic.ics"
+        }
+    ],
     "url": "http://freifunk-franken.de",
     "state": {
         "focus": [
@@ -54,8 +61,8 @@
             "Public Free Wifi",
             "Free internet access"
         ],
-        "nodes": 41,
-        "lastchange": "2015-05-08T07:46:07.298Z"
+        "nodes": 40,
+        "lastchange": "2015-05-09T18:35:19.635Z"
     },
     "contact": {
         "email": "fragen@freifunk-franken.de",
