@@ -1,22 +1,26 @@
 {
-    "name": "Freifunk Berchtesgadener Land",
-    "url": "http://bgl.freifunk.net/",
-    "metacommunity": "Freifunk Franken",
+    "api": "0.4.8",
+    "contact": {
+        "email": "fragen@freifunk-franken.de",
+        "facebook": "https://www.facebook.com/FreifunkFranken",
+        "irc": "irc://irc.freenode.net/#freifunkfranken",
+        "ml": "http://lists.freifunk.net/mailman/listinfo/franken-freifunk.net",
+        "phone": "+49 9101 7018607",
+        "twitter": "@FreifunkFranken"
+    },
     "location": {
         "city": "Bad Reichenhall",
-        "lat": 47.731667,
+        "country": "DE",
+        "lat": 47.731667000000002,
         "lon": 12.881389
     },
+    "metacommunity": "Freifunk Franken",
+    "name": "Freifunk Berchtesgadener Land",
     "nodeMaps": [
         {
-            "url": "https://netmon.freifunk-franken.de/map.php?zoom=12&lat=47.76464&lon=12.89648&layers=B0000TTTTT",
+            "mapType": "geographical",
             "technicalType": "netmon",
-            "mapType": "geographical"
-        },
-        {
-            "url": "https://netmon.freifunk-franken.de/routerlist.php",
-            "technicalType": "netmon",
-            "mapType": "list/status"
+            "url": "https://netmon.freifunk-franken.de/map.php?zoom=12&lat=47.76464&lon=12.89648&layers=B0000TTTTT"
         }
     ],
     "state": {
@@ -25,44 +29,36 @@
             "Public Free Wifi",
             "Free internet access"
         ],
-        "nodes": 11,
-        "lastchange": "2015-06-15T13:58:48.851Z"
-    },
-    "contact": {
-        "email": "fragen@freifunk-franken.de",
-        "facebook": "https://www.facebook.com/FreifunkFranken",
-        "ml": "http://lists.freifunk.net/mailman/listinfo/franken-freifunk.net",
-        "phone": "+49 9101 7018607",
-        "irc": "irc://irc.freenode.net/#freifunkfranken",
-        "twitter": "@FreifunkFranken"
+        "lastchange": "2015-06-15T20:22:13.150625Z",
+        "nodes": 14
     },
     "support": {
         "donations": {
             "campaigns": [
                 {
-                    "provider": "betterplace",
-                    "projectid": "14713"
+                    "projectid": "14713",
+                    "provider": "betterplace"
                 }
             ]
         }
     },
     "techDetails": {
         "firmware": {
+            "docs": "https://wiki.freifunk-franken.de/w/Portal:Firmware",
             "name": "Freifunk-Franken Firmware",
-            "url": "https://dev.freifunk-franken.de/firmware/",
-            "docs": "https://wiki.freifunk-franken.de/w/Portal:Firmware"
+            "url": "https://dev.freifunk-franken.de/firmware/"
         },
+        "legals": [
+            "vpnnational",
+            "vpninternational"
+        ],
         "routing": [
             "batman-adv",
             "OLSR"
         ],
         "updatemode": [
             "manual"
-        ],
-        "legals": [
-            "vpnnational",
-            "vpninternational"
         ]
     },
-    "api": "0.4.8"
+    "url": "http://bgl.freifunk.net/"
 }

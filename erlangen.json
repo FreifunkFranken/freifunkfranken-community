@@ -1,28 +1,70 @@
 {
-    "name": "Freifunk Erlangen",
-    "metacommunity": "Freifunk Franken",
+    "api": "0.4.8",
+    "contact": {
+        "email": "fragen@freifunk-franken.de",
+        "facebook": "https://www.facebook.com/FreifunkFranken",
+        "irc": "irc://irc.freenode.net/#freifunkfranken",
+        "ml": "http://lists.freifunk.net/mailman/listinfo/franken-freifunk.net",
+        "phone": "+49 9101 7018607",
+        "twitter": "@FreifunkFranken"
+    },
     "location": {
         "city": "Erlangen",
-        "lat": 49.6005981,
+        "country": "DE",
+        "lat": 49.600598099999999,
         "lon": 11.0019221
     },
-    "nodeMaps": [
-        {
-            "url": "https://netmon.freifunk-franken.de/map.php?zoom=12&lat=49.59401&lon=11.01177&layers=B0000TTTTTT",
-            "technicalType": "netmon",
-            "mapType": "geographical"
-        },
-        {
-            "url": "https://netmon.freifunk-franken.de/routerlist.php",
-            "technicalType": "netmon",
-            "mapType": "list/status"
-        }
-    ],
+    "metacommunity": "Freifunk Franken",
+    "name": "Freifunk Erlangen",
     "networks": {
         "ipv4": [
             {
                 "network": "10.50.64.0/21"
             }
+        ]
+    },
+    "nodeMaps": [
+        {
+            "mapType": "geographical",
+            "technicalType": "netmon",
+            "url": "https://netmon.freifunk-franken.de/map.php?zoom=12&lat=49.59401&lon=11.01177&layers=B0000TTTTTT"
+        }
+    ],
+    "state": {
+        "focus": [
+            "infrastructure/backbone",
+            "Public Free Wifi",
+            "Free internet access"
+        ],
+        "lastchange": "2015-06-15T20:22:12.976288Z",
+        "nodes": 44
+    },
+    "support": {
+        "donations": {
+            "campaigns": [
+                {
+                    "projectid": "14713",
+                    "provider": "betterplace"
+                }
+            ]
+        }
+    },
+    "techDetails": {
+        "firmware": {
+            "docs": "https://wiki.freifunk-franken.de/w/Portal:Firmware",
+            "name": "Freifunk-Franken Firmware",
+            "url": "https://dev.freifunk-franken.de/firmware/"
+        },
+        "legals": [
+            "vpnnational",
+            "vpninternational"
+        ],
+        "routing": [
+            "batman-adv",
+            "OLSR"
+        ],
+        "updatemode": [
+            "manual"
         ]
     },
     "timeline": [
@@ -32,51 +74,5 @@
             "url": "http://wiki.freifunk.net/index.php?title=Freifunk_Erlangen&oldid=4791"
         }
     ],
-    "url": "http://freifunk-franken.de",
-    "state": {
-        "focus": [
-            "infrastructure/backbone",
-            "Public Free Wifi",
-            "Free internet access"
-        ],
-        "nodes": 44,
-        "lastchange": "2015-06-15T13:58:48.798Z"
-    },
-    "contact": {
-        "email": "fragen@freifunk-franken.de",
-        "facebook": "https://www.facebook.com/FreifunkFranken",
-        "ml": "http://lists.freifunk.net/mailman/listinfo/franken-freifunk.net",
-        "phone": "+49 9101 7018607",
-        "irc": "irc://irc.freenode.net/#freifunkfranken",
-        "twitter": "@FreifunkFranken"
-    },
-    "support": {
-        "donations": {
-            "campaigns": [
-                {
-                    "provider": "betterplace",
-                    "projectid": "14713"
-                }
-            ]
-        }
-    },
-    "techDetails": {
-        "firmware": {
-            "name": "Freifunk-Franken Firmware",
-            "url": "https://dev.freifunk-franken.de/firmware/",
-            "docs": "https://wiki.freifunk-franken.de/w/Portal:Firmware"
-        },
-        "routing": [
-            "batman-adv",
-            "OLSR"
-        ],
-        "updatemode": [
-            "manual"
-        ],
-        "legals": [
-            "vpnnational",
-            "vpninternational"
-        ]
-    },
-    "api": "0.4.8"
+    "url": "http://freifunk-franken.de"
 }

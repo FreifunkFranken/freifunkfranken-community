@@ -1,32 +1,28 @@
 {
-    "name": "Freifunk Bamberg",
-    "url": "http://www.freifunk-bamberg.de/",
-    "metacommunity": "Freifunk Franken",
-    "location": {
-        "city": "Bamberg",
-        "lat": 49.891667,
-        "lon": 10.8916672
-    },
+    "api": "0.4.8",
     "contact": {
         "email": "kontakt@freifunk-bamberg.de",
-        "twitter": "@FreifunkBa",
         "facebook": "https://www.facebook.com/FreifunkFranken",
+        "irc": "irc://irc.freenode.net/#freifunkfranken",
         "ml": "http://lists.freifunk.net/mailman/listinfo/franken-freifunk.net",
         "phone": "+49 9101 7018607",
-        "irc": "irc://irc.freenode.net/#freifunkfranken"
+        "twitter": "@FreifunkBa"
     },
-    "nodeMaps": [
+    "feeds": [
         {
-            "url": "https://netmon.freifunk-franken.de/map.php?zoom=11&lat=49.89512&lon=10.897&layers=B0000TTTTT",
-            "technicalType": "netmon",
-            "mapType": "geographical"
-        },
-        {
-            "url": "https://netmon.freifunk-franken.de/routerlist.php",
-            "technicalType": "netmon",
-            "mapType": "list/status"
+            "category": "ics",
+            "name": "Kalender",
+            "url": "https://www.google.com/calendar/ical/ufdsc5q3a308snrrdjn752jato%40group.calendar.google.com/public/basic.ics"
         }
     ],
+    "location": {
+        "city": "Bamberg",
+        "country": "DE",
+        "lat": 49.891666999999998,
+        "lon": 10.891667200000001
+    },
+    "metacommunity": "Freifunk Franken",
+    "name": "Freifunk Bamberg",
     "networks": {
         "ipv4": [
             {
@@ -34,17 +30,11 @@
             }
         ]
     },
-    "timeline": [
+    "nodeMaps": [
         {
-            "description": "Freifunk-Bamberg wird Teil von Freifunk-Franken",
-            "timestamp": "2015-05-05"
-        }
-    ],
-    "feeds": [
-        {
-            "name": "Kalender",
-            "category": "ics",
-            "url": "https://www.google.com/calendar/ical/ufdsc5q3a308snrrdjn752jato%40group.calendar.google.com/public/basic.ics"
+            "mapType": "geographical",
+            "technicalType": "netmon",
+            "url": "https://netmon.freifunk-franken.de/map.php?zoom=11&lat=49.89512&lon=10.897&layers=B0000TTTTT"
         }
     ],
     "state": {
@@ -53,36 +43,42 @@
             "Public Free Wifi",
             "Free internet access"
         ],
-        "nodes": 10,
-        "lastchange": "2015-06-15T13:58:48.827Z"
+        "lastchange": "2015-06-15T20:22:13.040750Z",
+        "nodes": 12
     },
     "support": {
         "donations": {
             "campaigns": [
                 {
-                    "provider": "betterplace",
-                    "projectid": "14713"
+                    "projectid": "14713",
+                    "provider": "betterplace"
                 }
             ]
         }
     },
     "techDetails": {
         "firmware": {
+            "docs": "https://wiki.freifunk-franken.de/w/Portal:Firmware",
             "name": "Freifunk-Franken Firmware",
-            "url": "https://dev.freifunk-franken.de/firmware/",
-            "docs": "https://wiki.freifunk-franken.de/w/Portal:Firmware"
+            "url": "https://dev.freifunk-franken.de/firmware/"
         },
+        "legals": [
+            "vpnnational",
+            "vpninternational"
+        ],
         "routing": [
             "batman-adv",
             "OLSR"
         ],
         "updatemode": [
             "manual"
-        ],
-        "legals": [
-            "vpnnational",
-            "vpninternational"
         ]
     },
-    "api": "0.4.8"
+    "timeline": [
+        {
+            "description": "Freifunk-Bamberg wird Teil von Freifunk-Franken",
+            "timestamp": "2015-05-05"
+        }
+    ],
+    "url": "http://www.freifunk-bamberg.de/"
 }
