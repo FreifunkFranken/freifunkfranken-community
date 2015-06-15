@@ -1,64 +1,68 @@
 {
-    "api": "0.4.8",
-    "contact": {
-        "email": "fragen@freifunk-franken.de",
-        "facebook": "https://www.facebook.com/FreifunkFranken",
-        "irc": "irc://irc.freenode.net/#freifunkfranken",
-        "ml": "http://lists.freifunk.net/mailman/listinfo/franken-freifunk.net",
-        "phone": "+49 9101 7018607",
-        "twitter": "@FreifunkFranken"
-    },
+    "name": "Freifunk Aschaffenburg",
+    "metacommunity": "Freifunk Franken",
     "location": {
         "city": "Aschaffenburg",
-        "country": "DE",
-        "lat": 49.976703000000001,
-        "lon": 9.1477470000000007
+        "lat": 49.976703,
+        "lon": 9.147747
     },
-    "metacommunity": "Freifunk Franken",
-    "name": "Freifunk Aschaffenburg",
     "nodeMaps": [
         {
-            "mapType": "geographical",
+            "url": "https://netmon.freifunk-franken.de/map.php?zoom=11&lat=49.99864&lon=9.12353&layers=B0000TTTTT",
             "technicalType": "netmon",
-            "url": "https://netmon.freifunk-franken.de/map.php?zoom=11&lat=49.99864&lon=9.12353&layers=B0000TTTTT"
+            "mapType": "geographical"
+        },
+        {
+            "url": "https://netmon.freifunk-franken.de/routerlist.php",
+            "technicalType": "netmon",
+            "mapType": "list/status"
         }
     ],
+    "url": "http://freifunk-franken.de",
     "state": {
         "focus": [
             "infrastructure/backbone",
             "Public Free Wifi",
             "Free internet access"
         ],
-        "lastchange": "2015-06-15T13:42:23.571141Z",
-        "nodes": 9
+        "nodes": 8,
+        "lastchange": "2015-06-15T13:58:48.841Z"
+    },
+    "contact": {
+        "email": "fragen@freifunk-franken.de",
+        "facebook": "https://www.facebook.com/FreifunkFranken",
+        "ml": "http://lists.freifunk.net/mailman/listinfo/franken-freifunk.net",
+        "phone": "+49 9101 7018607",
+        "irc": "irc://irc.freenode.net/#freifunkfranken",
+        "twitter": "@FreifunkFranken"
     },
     "support": {
         "donations": {
             "campaigns": [
                 {
-                    "projectid": "14713",
-                    "provider": "betterplace"
+                    "provider": "betterplace",
+                    "projectid": "14713"
                 }
             ]
         }
     },
     "techDetails": {
         "firmware": {
-            "docs": "https://wiki.freifunk-franken.de/w/Portal:Firmware",
             "name": "Freifunk-Franken Firmware",
-            "url": "https://dev.freifunk-franken.de/firmware/"
+            "url": "https://dev.freifunk-franken.de/firmware/",
+            "docs": "https://wiki.freifunk-franken.de/w/Portal:Firmware"
         },
-        "legals": [
-            "vpnnational",
-            "vpninternational"
-        ],
         "routing": [
             "batman-adv",
             "OLSR"
         ],
         "updatemode": [
             "manual"
+        ],
+        "legals": [
+            "vpnnational",
+            "vpninternational"
         ]
     },
-    "url": "http://freifunk-franken.de"
+    "api": "0.4.8"
 }

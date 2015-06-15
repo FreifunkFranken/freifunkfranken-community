@@ -1,26 +1,28 @@
 {
-    "api": "0.4.8",
-    "contact": {
-        "email": "fragen@freifunk-franken.de",
-        "facebook": "https://www.facebook.com/FreifunkFranken",
-        "irc": "irc://irc.freenode.net/#freifunkfranken",
-        "ml": "http://lists.freifunk.net/mailman/listinfo/franken-freifunk.net",
-        "phone": "+49 9101 7018607",
-        "twitter": "@FreifunkFranken"
-    },
+    "name": "Freifunk Nürnberg",
+    "metacommunity": "Freifunk Franken",
     "location": {
+        "city": "Nürnberg",
+        "lat": 49.451719442437,
+        "lon": 11.073559012306,
         "address": {
             "Name": "Coworking Nürnberg",
             "Street": "Josephsplatz ",
             "Zipcode": "90403"
-        },
-        "city": "Nürnberg",
-        "country": "DE",
-        "lat": 49.451719442437003,
-        "lon": 11.073559012305999
+        }
     },
-    "metacommunity": "Freifunk Franken",
-    "name": "Freifunk Nürnberg",
+    "nodeMaps": [
+        {
+            "url": "https://netmon.freifunk-franken.de/map.php?zoom=13&lat=49.45582&lon=11.08036&layers=B0000TTTTTT",
+            "technicalType": "netmon",
+            "mapType": "geographical"
+        },
+        {
+            "url": "https://netmon.freifunk-franken.de/routerlist.php",
+            "technicalType": "netmon",
+            "mapType": "list/status"
+        }
+    ],
     "networks": {
         "ipv4": [
             {
@@ -28,57 +30,13 @@
             }
         ]
     },
-    "nodeMaps": [
-        {
-            "mapType": "geographical",
-            "technicalType": "netmon",
-            "url": "https://netmon.freifunk-franken.de/map.php?zoom=13&lat=49.45582&lon=11.08036&layers=B0000TTTTTT"
-        }
-    ],
     "services": [
         {
-            "internalUri": "10.50.40.98",
+            "serviceName": "jabber.pm-ib.de",
             "serviceDescription": "Jabber-Server",
-            "serviceName": "jabber.pm-ib.de"
+            "internalUri": "10.50.40.98"
         }
     ],
-    "state": {
-        "focus": [
-            "infrastructure/backbone",
-            "Public Free Wifi",
-            "Free internet access"
-        ],
-        "lastchange": "2015-06-15T13:42:23.412359Z",
-        "nodes": 107
-    },
-    "support": {
-        "donations": {
-            "campaigns": [
-                {
-                    "projectid": "14713",
-                    "provider": "betterplace"
-                }
-            ]
-        }
-    },
-    "techDetails": {
-        "firmware": {
-            "docs": "https://wiki.freifunk-franken.de/w/Portal:Firmware",
-            "name": "Freifunk-Franken Firmware",
-            "url": "https://dev.freifunk-franken.de/firmware/"
-        },
-        "legals": [
-            "vpnnational",
-            "vpninternational"
-        ],
-        "routing": [
-            "batman-adv",
-            "OLSR"
-        ],
-        "updatemode": [
-            "manual"
-        ]
-    },
     "timeline": [
         {
             "description": "35 Router an die Piratenpartei Nürnberg übergeben",
@@ -93,5 +51,51 @@
             "timestamp": "2014-12-19"
         }
     ],
-    "url": "http://freifunk-franken.de"
+    "url": "http://freifunk-franken.de",
+    "state": {
+        "focus": [
+            "infrastructure/backbone",
+            "Public Free Wifi",
+            "Free internet access"
+        ],
+        "nodes": 104,
+        "lastchange": "2015-06-15T13:58:48.769Z"
+    },
+    "contact": {
+        "email": "fragen@freifunk-franken.de",
+        "facebook": "https://www.facebook.com/FreifunkFranken",
+        "ml": "http://lists.freifunk.net/mailman/listinfo/franken-freifunk.net",
+        "phone": "+49 9101 7018607",
+        "irc": "irc://irc.freenode.net/#freifunkfranken",
+        "twitter": "@FreifunkFranken"
+    },
+    "support": {
+        "donations": {
+            "campaigns": [
+                {
+                    "provider": "betterplace",
+                    "projectid": "14713"
+                }
+            ]
+        }
+    },
+    "techDetails": {
+        "firmware": {
+            "name": "Freifunk-Franken Firmware",
+            "url": "https://dev.freifunk-franken.de/firmware/",
+            "docs": "https://wiki.freifunk-franken.de/w/Portal:Firmware"
+        },
+        "routing": [
+            "batman-adv",
+            "OLSR"
+        ],
+        "updatemode": [
+            "manual"
+        ],
+        "legals": [
+            "vpnnational",
+            "vpninternational"
+        ]
+    },
+    "api": "0.4.8"
 }

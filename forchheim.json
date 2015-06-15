@@ -1,26 +1,37 @@
 {
-    "api": "0.4.8",
+    "name": "Freifunk Ebermannstadt",
+    "url": "http://freifunk-ebs.de/",
+    "metacommunity": "Freifunk Franken",
+    "location": {
+        "city": "Ebermannstadt",
+        "lat": 49.779167,
+        "lon": 11.184722
+    },
     "contact": {
         "email": "kontakt@freifunk-ebs.de",
         "facebook": "https://www.facebook.com/FreifunkFranken",
-        "irc": "irc://irc.freenode.net/#freifunkfranken",
         "ml": "http://lists.freifunk.net/mailman/listinfo/franken-freifunk.net",
         "phone": "+49 9101 7018607",
+        "irc": "irc://irc.freenode.net/#freifunkfranken",
         "twitter": "@FreifunkFranken"
     },
-    "location": {
-        "city": "Ebermannstadt",
-        "country": "DE",
-        "lat": 49.779167000000001,
-        "lon": 11.184722000000001
-    },
-    "metacommunity": "Freifunk Franken",
-    "name": "Freifunk Ebermannstadt",
     "nodeMaps": [
         {
-            "mapType": "geographical",
+            "url": "https://netmon.freifunk-franken.de/map.php?zoom=13&lat=49.77509&lon=11.18624&layers=B0000TTTTTT",
             "technicalType": "netmon",
-            "url": "https://netmon.freifunk-franken.de/map.php?zoom=13&lat=49.77509&lon=11.18624&layers=B0000TTTTTT"
+            "mapType": "geographical"
+        },
+        {
+            "url": "https://netmon.freifunk-franken.de/routerlist.php",
+            "technicalType": "netmon",
+            "mapType": "list/status"
+        }
+    ],
+    "timeline": [
+        {
+            "description": "inFranken.de: Die Ebermannstadter Feuerwehr hat freies Wlan",
+            "timestamp": "2015-04-13",
+            "url": "http://www.infranken.de/regional/forchheim/Die-Ebermannstadter-Feuerwehr-hat-freies-Wlan;art216,1014706"
         }
     ],
     "state": {
@@ -29,43 +40,36 @@
             "Public Free Wifi",
             "Free internet access"
         ],
-        "lastchange": "2015-06-15T13:42:23.509581Z",
-        "nodes": 31
+        "nodes": 29,
+        "lastchange": "2015-06-15T13:58:48.817Z"
     },
     "support": {
         "donations": {
             "campaigns": [
                 {
-                    "projectid": "14713",
-                    "provider": "betterplace"
+                    "provider": "betterplace",
+                    "projectid": "14713"
                 }
             ]
         }
     },
     "techDetails": {
         "firmware": {
-            "docs": "https://wiki.freifunk-franken.de/w/Portal:Firmware",
             "name": "Freifunk-Franken Firmware",
-            "url": "https://dev.freifunk-franken.de/firmware/"
+            "url": "https://dev.freifunk-franken.de/firmware/",
+            "docs": "https://wiki.freifunk-franken.de/w/Portal:Firmware"
         },
-        "legals": [
-            "vpnnational",
-            "vpninternational"
-        ],
         "routing": [
             "batman-adv",
             "OLSR"
         ],
         "updatemode": [
             "manual"
+        ],
+        "legals": [
+            "vpnnational",
+            "vpninternational"
         ]
     },
-    "timeline": [
-        {
-            "description": "inFranken.de: Die Ebermannstadter Feuerwehr hat freies Wlan",
-            "timestamp": "2015-04-13",
-            "url": "http://www.infranken.de/regional/forchheim/Die-Ebermannstadter-Feuerwehr-hat-freies-Wlan;art216,1014706"
-        }
-    ],
-    "url": "http://freifunk-ebs.de/"
+    "api": "0.4.8"
 }
