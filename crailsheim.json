@@ -11,7 +11,7 @@
     "location": {
         "city": "Crailsheim",
         "country": "DE",
-        "lat": 49.134721999999996,
+        "lat": 49.134722,
         "lon": 10.070556
     },
     "metacommunity": "Freifunk Franken",
@@ -21,6 +21,11 @@
             "mapType": "geographical",
             "technicalType": "netmon",
             "url": "https://netmon.freifunk-franken.de/map.php?zoom=12&lat=49.13519&lon=10.0685&layers=B0000TTTTTT"
+        },
+        {
+            "mapType": "list/status",
+            "technicalType": "netmon",
+            "url": "https://netmon.freifunk-franken.de/routerlist.php"
         }
     ],
     "state": {
@@ -29,7 +34,7 @@
             "Public Free Wifi",
             "Free internet access"
         ],
-        "lastchange": "2015-06-15T20:22:13.009266Z",
+        "lastchange": "2015-06-15T22:03:32.271Z",
         "nodes": 12
     },
     "support": {

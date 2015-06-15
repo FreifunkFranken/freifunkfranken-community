@@ -12,7 +12,7 @@
         "city": "Fürth",
         "country": "DE",
         "lat": 49.47833,
-        "lon": 10.990270000000001
+        "lon": 10.99027
     },
     "metacommunity": "Freifunk Franken",
     "name": "Freifunk Fürth",
@@ -27,7 +27,12 @@
         {
             "mapType": "geographical",
             "technicalType": "netmon",
-            "url:": "https://netmon.freifunk-franken.de/map.php?zoom=13&lat=49.47703&lon=10.96743&layers=B0000TTTTTT"
+            "url": "https://netmon.freifunk-franken.de/map.php?zoom=13&lat=49.47703&lon=10.96743&layers=B0000TTTTTT"
+        },
+        {
+            "mapType": "list/status",
+            "technicalType": "netmon",
+            "url": "https://netmon.freifunk-franken.de/routerlist.php"
         }
     ],
     "services": [
@@ -43,8 +48,8 @@
             "Public Free Wifi",
             "Free internet access"
         ],
-        "lastchange": "2015-06-15T20:22:12.941291Z",
-        "nodes": 60
+        "lastchange": "2015-06-15T22:03:32.237Z",
+        "nodes": 61
     },
     "support": {
         "donations": {

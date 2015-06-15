@@ -2,7 +2,7 @@
     "api": "0.4.8",
     "contact": {
         "email": "fragen@freifunk-franken.de",
-        "facebook": "https://www.facebook.com/pages/Freifunk-W%C3%BCrzburg/1551181611834107",
+        "facebook": "https://www.facebook.com/FreifunkFranken",
         "irc": "irc://irc.freenode.net/#freifunkfranken",
         "ml": "http://lists.freifunk.net/mailman/listinfo/franken-freifunk.net",
         "phone": "+49 9101 7018607",
@@ -11,8 +11,8 @@
     "location": {
         "city": "Würzburg",
         "country": "DE",
-        "lat": 49.796880000000002,
-        "lon": 9.9348899999999993
+        "lat": 49.79688,
+        "lon": 9.93489
     },
     "metacommunity": "Freifunk Franken",
     "name": "Freifunk Würzburg",
@@ -28,6 +28,11 @@
             "mapType": "geographical",
             "technicalType": "netmon",
             "url": "https://netmon.freifunk-franken.de/map.php?zoom=13&lat=49.78524&lon=9.92406&layers=B0000TTTTTT"
+        },
+        {
+            "mapType": "list/status",
+            "technicalType": "netmon",
+            "url": "https://netmon.freifunk-franken.de/routerlist.php"
         }
     ],
     "state": {
@@ -36,8 +41,8 @@
             "Public Free Wifi",
             "Free internet access"
         ],
-        "lastchange": "2015-06-15T20:22:12.992787Z",
-        "nodes": 10
+        "lastchange": "2015-06-15T22:03:32.264Z",
+        "nodes": 11
     },
     "support": {
         "donations": {

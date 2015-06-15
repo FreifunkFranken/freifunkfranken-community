@@ -11,7 +11,7 @@
     "location": {
         "city": "Erlangen",
         "country": "DE",
-        "lat": 49.600598099999999,
+        "lat": 49.6005981,
         "lon": 11.0019221
     },
     "metacommunity": "Freifunk Franken",
@@ -28,6 +28,11 @@
             "mapType": "geographical",
             "technicalType": "netmon",
             "url": "https://netmon.freifunk-franken.de/map.php?zoom=12&lat=49.59401&lon=11.01177&layers=B0000TTTTTT"
+        },
+        {
+            "mapType": "list/status",
+            "technicalType": "netmon",
+            "url": "https://netmon.freifunk-franken.de/routerlist.php"
         }
     ],
     "state": {
@@ -36,8 +41,8 @@
             "Public Free Wifi",
             "Free internet access"
         ],
-        "lastchange": "2015-06-15T20:22:12.976288Z",
-        "nodes": 44
+        "lastchange": "2015-06-15T22:03:32.257Z",
+        "nodes": 45
     },
     "support": {
         "donations": {

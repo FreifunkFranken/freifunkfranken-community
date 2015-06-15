@@ -11,7 +11,7 @@
     "location": {
         "city": "Hof",
         "country": "DE",
-        "lat": 50.321944000000002,
+        "lat": 50.321944,
         "lon": 11.918889
     },
     "metacommunity": "Freifunk Franken",
@@ -21,6 +21,11 @@
             "mapType": "geographical",
             "technicalType": "netmon",
             "url": "https://netmon.freifunk-franken.de/map.php?zoom=11&lat=50.28576&lon=11.81247&layers=B0000TTTTT"
+        },
+        {
+            "mapType": "list/status",
+            "technicalType": "netmon",
+            "url": "https://netmon.freifunk-franken.de/routerlist.php"
         }
     ],
     "state": {
@@ -29,7 +34,7 @@
             "Public Free Wifi",
             "Free internet access"
         ],
-        "lastchange": "2015-06-15T20:22:13.072871Z",
+        "lastchange": "2015-06-15T22:03:32.299Z",
         "nodes": 10
     },
     "support": {

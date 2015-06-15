@@ -23,7 +23,7 @@
         },
         "city": "Haßfurt",
         "country": "DE",
-        "lat": 50.026302399999999,
+        "lat": 50.0263024,
         "lon": 10.5156375
     },
     "metacommunity": "Freifunk Franken",
@@ -40,6 +40,11 @@
             "mapType": "geographical",
             "technicalType": "netmon",
             "url": "https://netmon.freifunk-franken.de/map.php?zoom=17&lat=50.09241&lon=10.56942&layers=B0000TTTTTT"
+        },
+        {
+            "mapType": "list/status",
+            "technicalType": "netmon",
+            "url": "https://netmon.freifunk-franken.de/routerlist.php"
         }
     ],
     "services": [
@@ -58,8 +63,8 @@
             "Public Free Wifi",
             "Free internet access"
         ],
-        "lastchange": "2015-06-15T20:22:12.958411Z",
-        "nodes": 43
+        "lastchange": "2015-06-15T22:03:32.248Z",
+        "nodes": 44
     },
     "support": {
         "donations": {

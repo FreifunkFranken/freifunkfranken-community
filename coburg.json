@@ -11,8 +11,8 @@
     "location": {
         "city": "Coburg",
         "country": "DE",
-        "lat": 50.266666999999998,
-        "lon": 10.966666999999999
+        "lat": 50.266667,
+        "lon": 10.966667
     },
     "metacommunity": "Freifunk Franken",
     "name": "Freifunk Coburg",
@@ -21,6 +21,11 @@
             "mapType": "geographical",
             "technicalType": "netmon",
             "url": "https://netmon.freifunk-franken.de/map.php?zoom=11&lat=50.26513&lon=10.96275&layers=B0000TTTTT"
+        },
+        {
+            "mapType": "list/status",
+            "technicalType": "netmon",
+            "url": "https://netmon.freifunk-franken.de/routerlist.php"
         }
     ],
     "state": {
@@ -29,7 +34,7 @@
             "Public Free Wifi",
             "Free internet access"
         ],
-        "lastchange": "2015-06-15T20:22:13.057408Z",
+        "lastchange": "2015-06-15T22:03:32.290Z",
         "nodes": 7
     },
     "support": {
