@@ -1,28 +1,33 @@
 {
-    "name": "Freifunk Haßberge",
-    "metacommunity": "Freifunk Franken",
+    "api": "0.4.8",
+    "contact": {
+        "email": "fragen@freifunk-franken.de",
+        "facebook": "https://www.facebook.com/FreifunkFranken",
+        "irc": "irc://irc.freenode.net/#freifunkfranken",
+        "ml": "http://lists.freifunk.net/mailman/listinfo/franken-freifunk.net",
+        "phone": "+49 9101 7018607",
+        "twitter": "@FreifunkFranken"
+    },
+    "feeds": [
+        {
+            "category": "ics",
+            "name": "Kalender",
+            "url": "https://www.google.com/calendar/ical/2dsrm900h9iqdao2112527mjt4%40group.calendar.google.com/public/basic.ics"
+        }
+    ],
     "location": {
-        "city": "Haßfurt",
-        "lat": 50.0263024,
-        "lon": 10.5156375,
         "address": {
             "Name": "Meehaeusle",
             "Street": "Am Hafen 6",
             "Zipcode": "97437"
-        }
-    },
-    "nodeMaps": [
-        {
-            "url": "https://netmon.freifunk-franken.de/map.php?zoom=17&lat=50.09241&lon=10.56942&layers=B0000TTTTTT",
-            "technicalType": "netmon",
-            "mapType": "geographical"
         },
-        {
-            "url": "https://netmon.freifunk-franken.de/routerlist.php",
-            "technicalType": "netmon",
-            "mapType": "list/status"
-        }
-    ],
+        "city": "Haßfurt",
+        "country": "DE",
+        "lat": 50.026302399999999,
+        "lon": 10.5156375
+    },
+    "metacommunity": "Freifunk Franken",
+    "name": "Freifunk Haßberge",
     "networks": {
         "ipv4": [
             {
@@ -30,16 +35,60 @@
             }
         ]
     },
-    "services": [
+    "nodeMaps": [
         {
-            "serviceName": "Webserver und owncloud im Test",
-            "internalUri": "10.50.56.100"
-        },
-        {
-            "serviceName": "Teeworlds-Game-Server",
-            "internalUri": "10.50.56.123"
+            "mapType": "geographical",
+            "technicalType": "netmon",
+            "url": "https://netmon.freifunk-franken.de/map.php?zoom=17&lat=50.09241&lon=10.56942&layers=B0000TTTTTT"
         }
     ],
+    "services": [
+        {
+            "internalUri": "10.50.56.100",
+            "serviceName": "Webserver und owncloud im Test"
+        },
+        {
+            "internalUri": "10.50.56.123",
+            "serviceName": "Teeworlds-Game-Server"
+        }
+    ],
+    "state": {
+        "focus": [
+            "infrastructure/backbone",
+            "Public Free Wifi",
+            "Free internet access"
+        ],
+        "lastchange": "2015-06-15T10:11:33.154434Z",
+        "nodes": 45
+    },
+    "support": {
+        "donations": {
+            "campaigns": [
+                {
+                    "projectid": "14713",
+                    "provider": "betterplace"
+                }
+            ]
+        }
+    },
+    "techDetails": {
+        "firmware": {
+            "docs": "https://wiki.freifunk-franken.de/w/Portal:Firmware",
+            "name": "Freifunk-Franken Firmware",
+            "url": "https://dev.freifunk-franken.de/firmware/"
+        },
+        "legals": [
+            "vpnnational",
+            "vpninternational"
+        ],
+        "routing": [
+            "batman-adv",
+            "OLSR"
+        ],
+        "updatemode": [
+            "manual"
+        ]
+    },
     "timeline": [
         {
             "description": "Erstes regionales Treffen",
@@ -47,58 +96,5 @@
             "url": "http://pad.freifunk.net/p/Planung-Ha%C3%9Fberge"
         }
     ],
-    "feeds": [
-        {
-            "name": "Kalender",
-            "category": "ics",
-            "url": "https://www.google.com/calendar/ical/2dsrm900h9iqdao2112527mjt4%40group.calendar.google.com/public/basic.ics"
-        }
-    ],
-    "url": "http://freifunk-franken.de",
-    "state": {
-        "focus": [
-            "infrastructure/backbone",
-            "Public Free Wifi",
-            "Free internet access"
-        ],
-        "nodes": 46,
-        "lastchange": "2015-06-13T10:27:51.235Z"
-    },
-    "contact": {
-        "email": "fragen@freifunk-franken.de",
-        "facebook": "https://www.facebook.com/FreifunkFranken",
-        "ml": "http://lists.freifunk.net/mailman/listinfo/franken-freifunk.net",
-        "phone": "+49 9101 7018607",
-        "irc": "irc://irc.freenode.net/#freifunkfranken",
-        "twitter": "@FreifunkFranken"
-    },
-    "support": {
-        "donations": {
-            "campaigns": [
-                {
-                    "provider": "betterplace",
-                    "projectid": "14713"
-                }
-            ]
-        }
-    },
-    "techDetails": {
-        "firmware": {
-            "name": "Freifunk-Franken Firmware",
-            "url": "https://dev.freifunk-franken.de/firmware/",
-            "docs": "https://wiki.freifunk-franken.de/w/Portal:Firmware"
-        },
-        "routing": [
-            "batman-adv",
-            "OLSR"
-        ],
-        "updatemode": [
-            "manual"
-        ],
-        "legals": [
-            "vpnnational",
-            "vpninternational"
-        ]
-    },
-    "api": "0.4.8"
+    "url": "http://freifunk-franken.de"
 }

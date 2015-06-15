@@ -1,75 +1,71 @@
 {
-    "name": "Freifunk Lauf an der Pegnitz",
-    "metacommunity": "Freifunk Franken",
-    "location": {
-        "city": "Lauf an der Pegnitz",
-        "lat": 49.510278,
-        "lon": 11.277222
-    },
+    "api": "0.4.8",
     "contact": {
         "email": "freifunk@scheese.de",
         "facebook": "https://www.facebook.com/FreifunkFranken",
+        "irc": "irc://irc.freenode.net/#freifunkfranken",
         "ml": "http://lists.freifunk.net/mailman/listinfo/franken-freifunk.net",
         "phone": "+49 170 8117104",
-        "irc": "irc://irc.freenode.net/#freifunkfranken",
         "twitter": "@FreifunkFranken"
     },
-    "services": [
-        {
-            "serviceName": "CommunityNas",
-            "serviceDescription": "https://wiki.freifunk-franken.de/w/Dienste/CommunityNas",
-            "internalUri": "10.50.40.40"
-        }
-    ],
+    "location": {
+        "city": "Lauf an der Pegnitz",
+        "country": "DE",
+        "lat": 49.510278,
+        "lon": 11.277222
+    },
+    "metacommunity": "Freifunk Franken",
+    "name": "Freifunk Lauf an der Pegnitz",
     "nodeMaps": [
         {
-            "url": "https://netmon.freifunk-franken.de/map.php?zoom=12&lat=49.50535&lon=11.27395&layers=B0000TTTTT",
+            "mapType": "geographical",
             "technicalType": "netmon",
-            "mapType": "geographical"
-        },
-        {
-            "url": "https://netmon.freifunk-franken.de/routerlist.php",
-            "technicalType": "netmon",
-            "mapType": "list/status"
+            "url": "https://netmon.freifunk-franken.de/map.php?zoom=12&lat=49.50535&lon=11.27395&layers=B0000TTTTT"
         }
     ],
-    "url": "http://freifunk-franken.de",
+    "services": [
+        {
+            "internalUri": "10.50.40.40",
+            "serviceDescription": "https://wiki.freifunk-franken.de/w/Dienste/CommunityNas",
+            "serviceName": "CommunityNas"
+        }
+    ],
     "state": {
         "focus": [
             "infrastructure/backbone",
             "Public Free Wifi",
             "Free internet access"
         ],
-        "nodes": 18,
-        "lastchange": "2015-06-13T10:27:51.271Z"
+        "lastchange": "2015-06-15T10:11:33.298430Z",
+        "nodes": 21
     },
     "support": {
         "donations": {
             "campaigns": [
                 {
-                    "provider": "betterplace",
-                    "projectid": "14713"
+                    "projectid": "14713",
+                    "provider": "betterplace"
                 }
             ]
         }
     },
     "techDetails": {
         "firmware": {
+            "docs": "https://wiki.freifunk-franken.de/w/Portal:Firmware",
             "name": "Freifunk-Franken Firmware",
-            "url": "https://dev.freifunk-franken.de/firmware/",
-            "docs": "https://wiki.freifunk-franken.de/w/Portal:Firmware"
+            "url": "https://dev.freifunk-franken.de/firmware/"
         },
+        "legals": [
+            "vpnnational",
+            "vpninternational"
+        ],
         "routing": [
             "batman-adv",
             "OLSR"
         ],
         "updatemode": [
             "manual"
-        ],
-        "legals": [
-            "vpnnational",
-            "vpninternational"
         ]
     },
-    "api": "0.4.8"
+    "url": "http://freifunk-franken.de"
 }

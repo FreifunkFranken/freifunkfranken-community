@@ -1,23 +1,21 @@
 {
-    "name": "Freifunk Fürth",
-    "metacommunity": "Freifunk Franken",
+    "api": "0.4.8",
+    "contact": {
+        "email": "fragen@freifunk-franken.de",
+        "facebook": "https://www.facebook.com/FreifunkFranken",
+        "irc": "irc://irc.freenode.net/#freifunkfranken",
+        "ml": "http://lists.freifunk.net/mailman/listinfo/franken-freifunk.net",
+        "phone": "+49 9101 7018607",
+        "twitter": "@FreifunkFranken"
+    },
     "location": {
         "city": "Fürth",
+        "country": "DE",
         "lat": 49.47833,
-        "lon": 10.99027
+        "lon": 10.990270000000001
     },
-    "nodeMaps": [
-        {
-            "url:": "https://netmon.freifunk-franken.de/map.php?zoom=13&lat=49.47703&lon=10.96743&layers=B0000TTTTTT",
-            "technicalType": "netmon",
-            "mapType": "geographical"
-        },
-        {
-            "url": "https://netmon.freifunk-franken.de/routerlist.php",
-            "technicalType": "netmon",
-            "mapType": "list/status"
-        }
-    ],
+    "metacommunity": "Freifunk Franken",
+    "name": "Freifunk Fürth",
     "networks": {
         "ipv4": [
             {
@@ -25,13 +23,57 @@
             }
         ]
     },
-    "services": [
+    "nodeMaps": [
         {
-            "serviceName": "MicroNAS",
-            "serviceDescription": "anonymous FTP (10GB)",
-            "internalUri": "ftp://anonymous@10.50.32.100"
+            "mapType": "geographical",
+            "technicalType": "netmon",
+            "url:": "https://netmon.freifunk-franken.de/map.php?zoom=13&lat=49.47703&lon=10.96743&layers=B0000TTTTTT"
         }
     ],
+    "services": [
+        {
+            "internalUri": "ftp://anonymous@10.50.32.100",
+            "serviceDescription": "anonymous FTP (10GB)",
+            "serviceName": "MicroNAS"
+        }
+    ],
+    "state": {
+        "focus": [
+            "infrastructure/backbone",
+            "Public Free Wifi",
+            "Free internet access"
+        ],
+        "lastchange": "2015-06-15T10:11:33.137752Z",
+        "nodes": 60
+    },
+    "support": {
+        "donations": {
+            "campaigns": [
+                {
+                    "projectid": "14713",
+                    "provider": "betterplace"
+                }
+            ]
+        }
+    },
+    "techDetails": {
+        "firmware": {
+            "docs": "https://wiki.freifunk-franken.de/w/Portal:Firmware",
+            "name": "Freifunk-Franken Firmware",
+            "url": "https://dev.freifunk-franken.de/firmware/"
+        },
+        "legals": [
+            "vpnnational",
+            "vpninternational"
+        ],
+        "routing": [
+            "batman-adv",
+            "OLSR"
+        ],
+        "updatemode": [
+            "manual"
+        ]
+    },
     "timeline": [
         {
             "description": "Einrichten der Seite 'Freifunk Fürth' auf wiki.freifunk.net",
@@ -39,51 +81,5 @@
             "url": "http://lists.freifunk.net/pipermail/franken-freifunk.net/2009-February/000000.html"
         }
     ],
-    "url": "http://freifunk-franken.de",
-    "state": {
-        "focus": [
-            "infrastructure/backbone",
-            "Public Free Wifi",
-            "Free internet access"
-        ],
-        "nodes": 61,
-        "lastchange": "2015-06-13T10:27:51.228Z"
-    },
-    "contact": {
-        "email": "fragen@freifunk-franken.de",
-        "facebook": "https://www.facebook.com/FreifunkFranken",
-        "ml": "http://lists.freifunk.net/mailman/listinfo/franken-freifunk.net",
-        "phone": "+49 9101 7018607",
-        "irc": "irc://irc.freenode.net/#freifunkfranken",
-        "twitter": "@FreifunkFranken"
-    },
-    "support": {
-        "donations": {
-            "campaigns": [
-                {
-                    "provider": "betterplace",
-                    "projectid": "14713"
-                }
-            ]
-        }
-    },
-    "techDetails": {
-        "firmware": {
-            "name": "Freifunk-Franken Firmware",
-            "url": "https://dev.freifunk-franken.de/firmware/",
-            "docs": "https://wiki.freifunk-franken.de/w/Portal:Firmware"
-        },
-        "routing": [
-            "batman-adv",
-            "OLSR"
-        ],
-        "updatemode": [
-            "manual"
-        ],
-        "legals": [
-            "vpnnational",
-            "vpninternational"
-        ]
-    },
-    "api": "0.4.8"
+    "url": "http://freifunk-franken.de"
 }
