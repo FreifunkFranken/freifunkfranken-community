@@ -16,8 +16,8 @@
         },
         "city": "Nürnberg",
         "country": "DE",
-        "lat": 49.451719442437,
-        "lon": 11.073559012306
+        "lat": 49.451719442437003,
+        "lon": 11.073559012305999
     },
     "metacommunity": "Freifunk Franken",
     "name": "Freifunk Nürnberg",
@@ -53,8 +53,8 @@
             "Public Free Wifi",
             "Free internet access"
         ],
-        "lastchange": "2015-06-15T22:03:32.224Z",
-        "nodes": 96
+        "lastchange": "2015-06-16T05:14:13.005595Z",
+        "nodes": 107
     },
     "support": {
         "donations": {

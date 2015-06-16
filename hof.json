@@ -11,7 +11,7 @@
     "location": {
         "city": "Hof",
         "country": "DE",
-        "lat": 50.321944,
+        "lat": 50.321944000000002,
         "lon": 11.918889
     },
     "metacommunity": "Freifunk Franken",
@@ -34,7 +34,7 @@
             "Public Free Wifi",
             "Free internet access"
         ],
-        "lastchange": "2015-06-15T22:03:32.299Z",
+        "lastchange": "2015-06-16T05:14:13.169048Z",
         "nodes": 10
     },
     "support": {

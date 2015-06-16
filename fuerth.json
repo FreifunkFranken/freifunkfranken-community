@@ -12,7 +12,7 @@
         "city": "Fürth",
         "country": "DE",
         "lat": 49.47833,
-        "lon": 10.99027
+        "lon": 10.990270000000001
     },
     "metacommunity": "Freifunk Franken",
     "name": "Freifunk Fürth",
@@ -48,8 +48,8 @@
             "Public Free Wifi",
             "Free internet access"
         ],
-        "lastchange": "2015-06-15T22:03:32.237Z",
-        "nodes": 61
+        "lastchange": "2015-06-16T05:14:13.023839Z",
+        "nodes": 58
     },
     "support": {
         "donations": {

@@ -11,7 +11,7 @@
     "location": {
         "city": "Crailsheim",
         "country": "DE",
-        "lat": 49.134722,
+        "lat": 49.134721999999996,
         "lon": 10.070556
     },
     "metacommunity": "Freifunk Franken",
@@ -34,8 +34,8 @@
             "Public Free Wifi",
             "Free internet access"
         ],
-        "lastchange": "2015-06-15T22:03:32.271Z",
-        "nodes": 12
+        "lastchange": "2015-06-16T05:14:13.098768Z",
+        "nodes": 11
     },
     "support": {
         "donations": {

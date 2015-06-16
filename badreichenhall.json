@@ -11,7 +11,7 @@
     "location": {
         "city": "Bad Reichenhall",
         "country": "DE",
-        "lat": 47.731667,
+        "lat": 47.731667000000002,
         "lon": 12.881389
     },
     "metacommunity": "Freifunk Franken",
@@ -34,8 +34,8 @@
             "Public Free Wifi",
             "Free internet access"
         ],
-        "lastchange": "2015-06-15T22:03:32.316Z",
-        "nodes": 10
+        "lastchange": "2015-06-16T05:14:13.222052Z",
+        "nodes": 11
     },
     "support": {
         "donations": {

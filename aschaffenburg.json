@@ -11,8 +11,8 @@
     "location": {
         "city": "Aschaffenburg",
         "country": "DE",
-        "lat": 49.976703,
-        "lon": 9.147747
+        "lat": 49.976703000000001,
+        "lon": 9.1477470000000007
     },
     "metacommunity": "Freifunk Franken",
     "name": "Freifunk Aschaffenburg",
@@ -34,8 +34,8 @@
             "Public Free Wifi",
             "Free internet access"
         ],
-        "lastchange": "2015-06-15T22:03:32.307Z",
-        "nodes": 8
+        "lastchange": "2015-06-16T05:14:13.186703Z",
+        "nodes": 9
     },
     "support": {
         "donations": {

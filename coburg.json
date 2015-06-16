@@ -11,8 +11,8 @@
     "location": {
         "city": "Coburg",
         "country": "DE",
-        "lat": 50.266667,
-        "lon": 10.966667
+        "lat": 50.266666999999998,
+        "lon": 10.966666999999999
     },
     "metacommunity": "Freifunk Franken",
     "name": "Freifunk Coburg",
@@ -34,8 +34,8 @@
             "Public Free Wifi",
             "Free internet access"
         ],
-        "lastchange": "2015-06-15T22:03:32.290Z",
-        "nodes": 7
+        "lastchange": "2015-06-16T05:14:13.151984Z",
+        "nodes": 6
     },
     "support": {
         "donations": {

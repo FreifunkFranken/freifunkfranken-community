@@ -11,7 +11,7 @@
     "location": {
         "city": "Erlangen",
         "country": "DE",
-        "lat": 49.6005981,
+        "lat": 49.600598099999999,
         "lon": 11.0019221
     },
     "metacommunity": "Freifunk Franken",
@@ -41,7 +41,7 @@
             "Public Free Wifi",
             "Free internet access"
         ],
-        "lastchange": "2015-06-15T22:03:32.257Z",
+        "lastchange": "2015-06-16T05:14:13.058949Z",
         "nodes": 45
     },
     "support": {

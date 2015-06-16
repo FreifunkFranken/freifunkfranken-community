@@ -1,7 +1,7 @@
 {
     "api": "0.4.8",
     "contact": {
-        "email": "fragen@freifunk-franken.de",
+        "email": "kontakt@freifunk-ebs.de",
         "facebook": "https://www.facebook.com/FreifunkFranken",
         "irc": "irc://irc.freenode.net/#freifunkfranken",
         "ml": "http://lists.freifunk.net/mailman/listinfo/franken-freifunk.net",
@@ -11,8 +11,8 @@
     "location": {
         "city": "Ebermannstadt",
         "country": "DE",
-        "lat": 49.779167,
-        "lon": 11.184722
+        "lat": 49.779167000000001,
+        "lon": 11.184722000000001
     },
     "metacommunity": "Freifunk Franken",
     "name": "Freifunk Ebermannstadt",
@@ -34,8 +34,8 @@
             "Public Free Wifi",
             "Free internet access"
         ],
-        "lastchange": "2015-06-15T22:03:32.278Z",
-        "nodes": 29
+        "lastchange": "2015-06-16T05:14:13.117867Z",
+        "nodes": 28
     },
     "support": {
         "donations": {

@@ -23,7 +23,7 @@
         },
         "city": "Haßfurt",
         "country": "DE",
-        "lat": 50.0263024,
+        "lat": 50.026302399999999,
         "lon": 10.5156375
     },
     "metacommunity": "Freifunk Franken",
@@ -63,7 +63,7 @@
             "Public Free Wifi",
             "Free internet access"
         ],
-        "lastchange": "2015-06-15T22:03:32.248Z",
+        "lastchange": "2015-06-16T05:14:13.041015Z",
         "nodes": 44
     },
     "support": {
