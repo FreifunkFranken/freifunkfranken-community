@@ -63,8 +63,8 @@
             "Public Free Wifi",
             "Free internet access"
         ],
-        "lastchange": "2015-06-16T05:14:13.041015Z",
-        "nodes": 44
+        "lastchange": "2015-09-07T10:00:12.678007Z",
+        "nodes": 63
     },
     "support": {
         "donations": {
@@ -99,7 +99,12 @@
             "description": "Erstes regionales Treffen",
             "timestamp": "2014-12-19",
             "url": "http://pad.freifunk.net/p/Planung-Ha%C3%9Fberge"
+        },
+        {
+            "description": "Haßfurter Tagblatt: Freies Internet in der Haßfurter City",
+            "timestamp": "2015-04-29",
+            "url": "http://www.hassfurter-tagblatt.de/lokales/aktuelles/art2824,297551"
         }
     ],
-    "url": "http://freifunk-franken.de"
+    "url": "http://www.freifunk-hassberge.de"
 }
