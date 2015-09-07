@@ -1,1 +1,0 @@
-Dieser Ordner wird automatisch generiert. Änderunben bitte nur in [dieser Datei](FreifunkFranken/community.franken.freifunk.net/blob/master/communitys_franken.json) vornehmen.
