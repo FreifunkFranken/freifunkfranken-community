@@ -1,9 +1,9 @@
 {
-    "api": "0.4.8",
+    "api": "0.4.12",
     "contact": {
         "email": "fragen@freifunk-franken.de",
         "facebook": "https://www.facebook.com/FreifunkFranken",
-        "irc": "irc://irc.freenode.net/#freifunkfranken",
+        "irc": "irc://irc.freenode.net/#freifunk-franken",
         "ml": "http://ml06.ispgateway.de/mailman/listinfo/freifunk-hof_mailingliste.wir-sind-hofer.de",
         "phone": "+49 9101 7018607",
         "twitter": "@FreifunkFranken"
@@ -34,8 +34,8 @@
             "Public Free Wifi",
             "Free internet access"
         ],
-        "lastchange": "2016-04-16T16:00:16.403051Z",
-        "nodes": 65
+        "lastchange": "2016-04-16T22:00:16.694367Z",
+        "nodes": 67
     },
     "support": {
         "donations": {
