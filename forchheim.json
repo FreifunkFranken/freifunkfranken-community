@@ -4,7 +4,7 @@
         "email": "kontakt@freifunk-ebs.de",
         "facebook": "https://www.facebook.com/FreifunkFranken",
         "irc": "irc://irc.freenode.net/#freifunk-franken",
-        "ml": "http://lists.freifunk.net/mailman/listinfo/franken-freifunk.net",
+        "ml": "https://lists.freifunk.net/mailman/listinfo/franken-freifunk.net/",
         "phone": "+49 9101 7018607",
         "twitter": "@FreifunkFranken"
     },
@@ -19,13 +19,11 @@
     "nodeMaps": [
         {
             "mapType": "geographical",
-            "technicalType": "netmon",
-            "url": "https://netmon.freifunk-franken.de/map.php?zoom=13&lat=49.77509&lon=11.18624&layers=B0000TTTTTT"
+            "url": "https://monitoring.freifunk-franken.de/map?mapcenter=49.78085,11.18129,15"
         },
         {
             "mapType": "list/status",
-            "technicalType": "netmon",
-            "url": "https://netmon.freifunk-franken.de/routerlist.php"
+            "url": "https://monitoring.freifunk-franken.de/routers"
         }
     ],
     "state": {
@@ -34,7 +32,7 @@
             "Public Free Wifi",
             "Free internet access"
         ],
-        "lastchange": "2016-04-17T10:00:16.782577Z",
+        "lastchange": "2016-04-17T16:00:18.286128Z",
         "nodes": 62
     },
     "support": {

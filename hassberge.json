@@ -4,7 +4,7 @@
         "email": "fragen@freifunk-franken.de",
         "facebook": "https://www.facebook.com/FreifunkFranken",
         "irc": "irc://irc.freenode.net/#freifunk-franken",
-        "ml": "http://lists.freifunk.net/mailman/listinfo/franken-freifunk.net",
+        "ml": "https://lists.freifunk.net/mailman/listinfo/franken-freifunk.net/",
         "phone": "+49 9101 7018607",
         "twitter": "@FreifunkFranken"
     },
@@ -38,13 +38,11 @@
     "nodeMaps": [
         {
             "mapType": "geographical",
-            "technicalType": "netmon",
-            "url": "https://netmon.freifunk-franken.de/map.php?zoom=17&lat=50.09241&lon=10.56942&layers=B0000TTTTTT"
+            "url": "https://monitoring.freifunk-franken.de/map?mapcenter=50.03664,10.51211,14"
         },
         {
             "mapType": "list/status",
-            "technicalType": "netmon",
-            "url": "https://netmon.freifunk-franken.de/routerlist.php"
+            "url": "https://monitoring.freifunk-franken.de/routers"
         }
     ],
     "services": [
@@ -63,8 +61,8 @@
             "Public Free Wifi",
             "Free internet access"
         ],
-        "lastchange": "2016-04-17T10:00:16.672285Z",
-        "nodes": 61
+        "lastchange": "2016-04-17T16:00:18.174172Z",
+        "nodes": 59
     },
     "support": {
         "donations": {
@@ -98,7 +96,7 @@
         {
             "description": "Erstes regionales Treffen",
             "timestamp": "2014-12-19",
-            "url": "http://pad.freifunk.net/p/Planung-Ha%C3%9Fberge"
+            "url": "https://pad.freifunk.net/p/Planung-Ha%C3%9Fberge"
         },
         {
             "description": "Haßfurter Tagblatt: Freies Internet in der Haßfurter City",
@@ -106,5 +104,5 @@
             "url": "http://www.hassfurter-tagblatt.de/lokales/aktuelles/art2824,297551"
         }
     ],
-    "url": "http://www.freifunk-hassberge.de"
+    "url": "http://www.freifunk-hassberge.de/"
 }

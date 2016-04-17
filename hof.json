@@ -4,7 +4,7 @@
         "email": "fragen@freifunk-franken.de",
         "facebook": "https://www.facebook.com/FreifunkFranken",
         "irc": "irc://irc.freenode.net/#freifunk-franken",
-        "ml": "http://ml06.ispgateway.de/mailman/listinfo/freifunk-hof_mailingliste.wir-sind-hofer.de",
+        "ml": "https://ml06.ispgateway.de/mailman/listinfo/freifunk-hof_mailingliste.wir-sind-hofer.de/",
         "phone": "+49 9101 7018607",
         "twitter": "@FreifunkFranken"
     },
@@ -19,13 +19,11 @@
     "nodeMaps": [
         {
             "mapType": "geographical",
-            "technicalType": "netmon",
-            "url": "https://netmon.freifunk-franken.de/map.php?zoom=11&lat=50.28576&lon=11.81247&layers=B0000TTTTT"
+            "url": "https://monitoring.freifunk-franken.de/map?mapcenter=50.30480,11.91450,13"
         },
         {
             "mapType": "list/status",
-            "technicalType": "netmon",
-            "url": "https://netmon.freifunk-franken.de/routerlist.php"
+            "url": "https://monitoring.freifunk-franken.de/routers"
         }
     ],
     "state": {
@@ -34,8 +32,8 @@
             "Public Free Wifi",
             "Free internet access"
         ],
-        "lastchange": "2016-04-17T10:00:16.863925Z",
-        "nodes": 65
+        "lastchange": "2016-04-17T16:00:18.368710Z",
+        "nodes": 63
     },
     "support": {
         "donations": {
@@ -65,5 +63,5 @@
             "manual"
         ]
     },
-    "url": "http://freifunk-franken.de"
+    "url": "https://freifunk-franken.de/"
 }

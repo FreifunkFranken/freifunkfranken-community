@@ -4,7 +4,7 @@
         "email": "kontakt@freifunk-bamberg.de",
         "facebook": "https://www.facebook.com/FreifunkFranken",
         "irc": "irc://irc.freenode.net/#freifunk-franken",
-        "ml": "http://lists.freifunk.net/mailman/listinfo/franken-freifunk.net",
+        "ml": "https://lists.freifunk.net/mailman/listinfo/franken-freifunk.net/",
         "phone": "+49 9101 7018607",
         "twitter": "@FreifunkBa"
     },
@@ -33,13 +33,11 @@
     "nodeMaps": [
         {
             "mapType": "geographical",
-            "technicalType": "netmon",
-            "url": "https://netmon.freifunk-franken.de/map.php?zoom=11&lat=49.89512&lon=10.897&layers=B0000TTTTT"
+            "url": "https://monitoring.freifunk-franken.de/map?mapcenter=49.90304,10.89483,13"
         },
         {
             "mapType": "list/status",
-            "technicalType": "netmon",
-            "url": "https://netmon.freifunk-franken.de/routerlist.php"
+            "url": "https://monitoring.freifunk-franken.de/routers"
         }
     ],
     "state": {
@@ -48,8 +46,8 @@
             "Public Free Wifi",
             "Free internet access"
         ],
-        "lastchange": "2016-04-17T10:00:16.809891Z",
-        "nodes": 38
+        "lastchange": "2016-04-17T16:00:18.313654Z",
+        "nodes": 37
     },
     "support": {
         "donations": {
