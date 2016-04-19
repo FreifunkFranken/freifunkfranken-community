@@ -2,7 +2,7 @@
     "api": "0.4.12",
     "contact": {
         "email": "fragen@freifunk-franken.de",
-        "facebook": "https://www.facebook.com/FreifunkFranken",
+        "facebook": "https://www.facebook.com/FreifunkFranken/",
         "irc": "irc://irc.freenode.net/#freifunk-franken",
         "ml": "https://lists.freifunk.net/mailman/listinfo/franken-freifunk.net/",
         "phone": "+49 9101 7018607",
@@ -32,7 +32,7 @@
             "Public Free Wifi",
             "Free internet access"
         ],
-        "lastchange": "2016-04-19T16:00:19.529811Z",
+        "lastchange": "2016-04-19T22:00:33.827850Z",
         "nodes": 7
     },
     "support": {

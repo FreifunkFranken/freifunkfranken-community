@@ -2,7 +2,7 @@
     "api": "0.4.12",
     "contact": {
         "email": "freifunk@scheese.de",
-        "facebook": "https://www.facebook.com/FreifunkFranken",
+        "facebook": "https://www.facebook.com/FreifunkFranken/",
         "irc": "irc://irc.freenode.net/#freifunk-franken",
         "ml": "https://lists.freifunk.net/mailman/listinfo/franken-freifunk.net/",
         "phone": "+49 170 8117104",
@@ -39,8 +39,8 @@
             "Public Free Wifi",
             "Free internet access"
         ],
-        "lastchange": "2016-04-19T16:00:19.618750Z",
-        "nodes": 44
+        "lastchange": "2016-04-19T22:00:33.908701Z",
+        "nodes": 38
     },
     "support": {
         "donations": {
