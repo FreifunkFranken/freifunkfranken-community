@@ -43,6 +43,10 @@
         {
             "mapType": "list/status",
             "url": "https://monitoring.freifunk-franken.de/routers"
+        },
+        {
+            "technicalType": "nodelist",
+            "url": "https://monitoring.freifunk-franken.de/api/nodelist"
         }
     ],
     "services": [
@@ -61,8 +65,8 @@
             "Public Free Wifi",
             "Free internet access"
         ],
-        "lastchange": "2016-04-24T16:00:16.267042Z",
-        "nodes": 54
+        "lastchange": "2016-04-24T22:00:16.955294Z",
+        "nodes": 60
     },
     "support": {
         "donations": {
