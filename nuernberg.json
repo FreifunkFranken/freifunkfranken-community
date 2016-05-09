@@ -1,5 +1,5 @@
 {
-    "api": "0.4.12",
+    "api": "0.4.13",
     "contact": {
         "email": "fragen@freifunk-franken.de",
         "facebook": "https://www.facebook.com/FreifunkFranken/",
@@ -55,8 +55,8 @@
             "Public Free Wifi",
             "Free internet access"
         ],
-        "lastchange": "2016-05-09T16:00:30.052176Z",
-        "nodes": 176
+        "lastchange": "2016-05-09T22:01:04.158067Z",
+        "nodes": 173
     },
     "support": {
         "donations": {

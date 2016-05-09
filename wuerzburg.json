@@ -1,5 +1,5 @@
 {
-    "api": "0.4.12",
+    "api": "0.4.13",
     "contact": {
         "email": "fragen@freifunk-franken.de",
         "facebook": "https://www.facebook.com/pages/Freifunk-W%C3%BCrzburg/1551181611834107",
@@ -43,8 +43,8 @@
             "Public Free Wifi",
             "Free internet access"
         ],
-        "lastchange": "2016-05-09T16:00:30.205570Z",
-        "nodes": 63
+        "lastchange": "2016-05-09T22:01:04.331716Z",
+        "nodes": 67
     },
     "support": {
         "donations": {
