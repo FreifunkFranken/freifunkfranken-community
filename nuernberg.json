@@ -49,14 +49,19 @@
             "serviceName": "jabber.pm-ib.de"
         }
     ],
+    "socialprojects": {
+        "contact": "fragen@freifunk-franken.de",
+        "number": 3,
+        "website": "https://wiki.freifunk-franken.de/w/FreifunkFuerFluechtlinksunterkuenfte"
+    },
     "state": {
         "focus": [
             "infrastructure/backbone",
             "Public Free Wifi",
             "Free internet access"
         ],
-        "lastchange": "2016-06-08T10:00:32.142001Z",
-        "nodes": 179
+        "lastchange": "2016-06-08T16:00:17.676727Z",
+        "nodes": 170
     },
     "support": {
         "donations": {

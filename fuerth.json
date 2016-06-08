@@ -44,14 +44,19 @@
             "serviceName": "MicroNAS"
         }
     ],
+    "socialprojects": {
+        "contact": "fragen@freifunk-franken.de",
+        "number": 3,
+        "website": "https://wiki.freifunk-franken.de/w/FreifunkFuerFluechtlinksunterkuenfte"
+    },
     "state": {
         "focus": [
             "infrastructure/backbone",
             "Public Free Wifi",
             "Free internet access"
         ],
-        "lastchange": "2016-06-08T10:00:32.184407Z",
-        "nodes": 96
+        "lastchange": "2016-06-08T16:00:17.718999Z",
+        "nodes": 95
     },
     "support": {
         "donations": {

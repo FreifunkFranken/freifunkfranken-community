@@ -59,13 +59,18 @@
             "serviceName": "Teeworlds-Game-Server"
         }
     ],
+    "socialprojects": {
+        "contact": "fragen@freifunk-franken.de",
+        "number": 4,
+        "website": "https://wiki.freifunk-franken.de/w/FreifunkFuerFluechtlinksunterkuenfte"
+    },
     "state": {
         "focus": [
             "infrastructure/backbone",
             "Public Free Wifi",
             "Free internet access"
         ],
-        "lastchange": "2016-06-08T10:00:32.227070Z",
+        "lastchange": "2016-06-08T16:00:17.791437Z",
         "nodes": 128
     },
     "support": {

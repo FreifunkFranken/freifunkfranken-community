@@ -37,14 +37,20 @@
             "url": "https://monitoring.freifunk-franken.de/api/nodelist"
         }
     ],
+    "socialprojects": {
+        "contact": "fragen@freifunk-franken.de",
+        "email": "burkard.fuchs@stadt.wuerzburg.de",
+        "number": 2,
+        "website": "https://wiki.freifunk-franken.de/w/FreifunkFuerFluechtlinksunterkuenfte"
+    },
     "state": {
         "focus": [
             "infrastructure/backbone",
             "Public Free Wifi",
             "Free internet access"
         ],
-        "lastchange": "2016-06-08T10:00:32.313586Z",
-        "nodes": 59
+        "lastchange": "2016-06-08T16:00:17.877638Z",
+        "nodes": 56
     },
     "support": {
         "donations": {

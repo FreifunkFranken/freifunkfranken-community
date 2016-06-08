@@ -37,14 +37,19 @@
             "serviceName": "CommunityNas"
         }
     ],
+    "socialprojects": {
+        "contact": "fragen@freifunk-franken.de",
+        "number": 3,
+        "website": "https://wiki.freifunk-franken.de/w/FreifunkFuerFluechtlinksunterkuenfte"
+    },
     "state": {
         "focus": [
             "infrastructure/backbone",
             "Public Free Wifi",
             "Free internet access"
         ],
-        "lastchange": "2016-06-08T10:00:32.605809Z",
-        "nodes": 44
+        "lastchange": "2016-06-08T16:00:18.168843Z",
+        "nodes": 37
     },
     "support": {
         "donations": {

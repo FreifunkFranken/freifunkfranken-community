@@ -30,14 +30,19 @@
             "url": "https://monitoring.freifunk-franken.de/api/nodelist"
         }
     ],
+    "socialprojects": {
+        "contact": "fragen@freifunk-franken.de",
+        "number": 2,
+        "website": "https://wiki.freifunk-franken.de/w/FreifunkFuerFluechtlinksunterkuenfte"
+    },
     "state": {
         "focus": [
             "infrastructure/backbone",
             "Public Free Wifi",
             "Free internet access"
         ],
-        "lastchange": "2016-06-08T10:00:32.647459Z",
-        "nodes": 21
+        "lastchange": "2016-06-08T16:00:18.210204Z",
+        "nodes": 22
     },
     "support": {
         "donations": {
