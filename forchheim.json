@@ -1,5 +1,5 @@
 {
-    "api": "0.4.13",
+    "api": "0.4.14",
     "contact": {
         "email": "kontakt@freifunk-ebs.de",
         "facebook": "https://www.facebook.com/FreifunkFranken/",
@@ -41,8 +41,8 @@
             "Public Free Wifi",
             "Free internet access"
         ],
-        "lastchange": "2016-07-22T04:00:31.576431Z",
-        "nodes": 86
+        "lastchange": "2016-07-22T10:00:23.662758Z",
+        "nodes": 88
     },
     "support": {
         "donations": {

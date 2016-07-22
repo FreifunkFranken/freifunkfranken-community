@@ -1,5 +1,5 @@
 {
-    "api": "0.4.13",
+    "api": "0.4.14",
     "contact": {
         "email": "fragen@freifunk-franken.de",
         "facebook": "https://www.facebook.com/freifunkhassberge/",
@@ -70,8 +70,8 @@
             "Public Free Wifi",
             "Free internet access"
         ],
-        "lastchange": "2016-07-22T04:00:31.398256Z",
-        "nodes": 132
+        "lastchange": "2016-07-22T10:00:23.482477Z",
+        "nodes": 137
     },
     "support": {
         "donations": {

@@ -1,5 +1,5 @@
 {
-    "api": "0.4.13",
+    "api": "0.4.14",
     "contact": {
         "email": "freifunk@scheese.de",
         "facebook": "https://www.facebook.com/FreifunkFranken/",
@@ -48,8 +48,8 @@
             "Public Free Wifi",
             "Free internet access"
         ],
-        "lastchange": "2016-07-22T04:00:31.795786Z",
-        "nodes": 42
+        "lastchange": "2016-07-22T10:00:23.883763Z",
+        "nodes": 48
     },
     "support": {
         "donations": {
