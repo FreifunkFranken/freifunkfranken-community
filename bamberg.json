@@ -18,8 +18,8 @@
     "location": {
         "city": "Bamberg",
         "country": "DE",
-        "lat": 49.891666999999998,
-        "lon": 10.891667200000001
+        "lat": 49.891667,
+        "lon": 10.8916672
     },
     "metacommunity": "Freifunk Franken",
     "name": "Freifunk Bamberg",
@@ -55,8 +55,8 @@
             "Public Free Wifi",
             "Free internet access"
         ],
-        "lastchange": "2017-02-23T11:00:18.954518Z",
-        "nodes": 73
+        "lastchange": "2017-03-29T18:16:31.788931Z",
+        "nodes": 79
     },
     "support": {
         "donations": {
