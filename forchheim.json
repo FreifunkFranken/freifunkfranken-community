@@ -1,83 +1,73 @@
 {
-    "api": "0.4.14",
-    "contact": {
-        "email": "kontakt@freifunk-ebs.de",
-        "facebook": "https://www.facebook.com/FreifunkFranken/",
-        "irc": "irc://irc.freenode.net/#freifunk-franken",
-        "ml": "https://lists.freifunk.net/mailman/listinfo/franken-freifunk.net/",
-        "phone": "+49 9101 7018607",
-        "twitter": "@FreifunkFranken"
-    },
-    "location": {
-        "city": "Ebermannstadt",
-        "country": "DE",
-        "lat": 49.779167,
-        "lon": 11.184722
-    },
-    "metacommunity": "Freifunk Franken",
-    "name": "Freifunk Ebermannstadt",
-    "nodeMaps": [
-        {
-            "mapType": "geographical",
-            "url": "https://monitoring.freifunk-franken.de/map?mapcenter=49.78085,11.18129,15"
-        },
-        {
-            "mapType": "list/status",
-            "url": "https://monitoring.freifunk-franken.de/routers"
-        },
-        {
-            "technicalType": "nodelist",
-            "url": "https://monitoring.freifunk-franken.de/api/nodelist"
-        }
+  "name": "Freifunk Forchheim",
+  "url": "https://wiki.freifunk-franken.de/w/Hoods/Forchheim",
+  "location": {
+    "city": "Forchheim",
+    "country": "DE",
+    "lat": 49.72011,
+    "lon": 11.05789
+  },
+  "contact": {
+    "email": "fragen@freifunk-franken.de",
+    "irc": "irc://irc.freenode.net/#freifunk-franken",
+    "ml": "https://lists.freifunk.net/mailman/listinfo/franken-freifunk.net/",
+    "facebook": "https://www.facebook.com/FreifunkFranken/",
+    "twitter": "@FreifunkFranken"
+  },
+  "metacommunity": "Freifunk Franken",
+  "state": {
+    "nodes": 146,
+    "focus": [
+      "infrastructure/backbone",
+      "Public Free Wifi",
+      "Free internet access"
     ],
-    "socialprojects": {
-        "contact": "fragen@freifunk-franken.de",
-        "number": 2,
-        "website": "https://wiki.freifunk-franken.de/w/FreifunkFuerFluechtlinksunterkuenfte"
+    "lastchange": "2017-09-02T17:22:39.790Z"
+  },
+  "nodeMaps": [
+    {
+      "url": "https://monitoring.freifunk-franken.de/map?mapcenter=49.72011,11.05789,13",
+      "mapType": "geographical"
     },
-    "state": {
-        "focus": [
-            "infrastructure/backbone",
-            "Public Free Wifi",
-            "Free internet access"
-        ],
-        "lastchange": "2017-09-02T16:00:15.326418Z",
-        "nodes": 109
+    {
+      "url": "https://monitoring.freifunk-franken.de/routers",
+      "mapType": "list/status"
     },
-    "support": {
-        "donations": {
-            "campaigns": [
-                {
-                    "projectid": "14713",
-                    "provider": "betterplace"
-                }
-            ]
-        }
+    {
+      "url": "https://monitoring.freifunk-franken.de/api/nodelist",
+      "technicalType": "nodelist"
+    }
+  ],
+  "socialprojects": {
+    "website": "https://wiki.freifunk-franken.de/w/FreifunkFuerFluechtlinksunterkuenfte",
+    "contact": "fragen@freifunk-franken.de"
+  },
+  "techDetails": {
+    "firmware": {
+      "name": "Freifunk-Franken Firmware",
+      "url": "https://dev.freifunk-franken.de/firmware/",
+      "docs": "https://wiki.freifunk-franken.de/w/Portal:Firmware",
+      "vpnaccess": "automatic"
     },
-    "techDetails": {
-        "firmware": {
-            "docs": "https://wiki.freifunk-franken.de/w/Portal:Firmware",
-            "name": "Freifunk-Franken Firmware",
-            "url": "https://dev.freifunk-franken.de/firmware/"
-        },
-        "legals": [
-            "vpnnational",
-            "vpninternational"
-        ],
-        "routing": [
-            "batman-adv",
-            "OLSR"
-        ],
-        "updatemode": [
-            "manual"
-        ]
-    },
-    "timeline": [
+    "networks": {
+      "ipv4": [
         {
-            "description": "inFranken.de: Die Ebermannstadter Feuerwehr hat freies Wlan",
-            "timestamp": "2015-04-13",
-            "url": "http://www.infranken.de/regional/forchheim/Die-Ebermannstadter-Feuerwehr-hat-freies-Wlan;art216,1014706"
+          "network": "10.50.116.0/22"
         }
+      ]
+    },
+    "routing": [
+      "Babel",
+      "batman-adv"
     ],
-    "url": "http://freifunk-ebs.de/"
+    "updatemode": [
+      "none",
+      "manual"
+    ],
+    "legals": [
+      "vpnnational",
+      "vpninternational"
+    ]
+  },
+  "api": "0.4.14"
 }
