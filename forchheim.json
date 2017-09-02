@@ -39,8 +39,19 @@
             "Public Free Wifi",
             "Free internet access"
         ],
-        "lastchange": "2017-09-02T10:00:17.628786Z",
+
+        "lastchange": "2017-09-02T16:00:15.326418Z",
         "nodes": 146
+    },
+    "support": {
+        "donations": {
+            "campaigns": [
+                {
+                    "projectid": "14713",
+                    "provider": "betterplace"
+                }
+            ]
+        }
     },
     "techDetails": {
         "firmware": {
