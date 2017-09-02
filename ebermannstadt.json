@@ -1,24 +1,25 @@
 {
     "api": "0.4.14",
     "contact": {
-        "email": "fragen@freifunk-franken.de",
+        "email": "kontakt@freifunk-ebs.de",
         "facebook": "https://www.facebook.com/FreifunkFranken/",
         "irc": "irc://irc.freenode.net/#freifunk-franken",
         "ml": "https://lists.freifunk.net/mailman/listinfo/franken-freifunk.net/",
+        "phone": "+49 9101 7018607",
         "twitter": "@FreifunkFranken"
     },
     "location": {
-        "city": "Forchheim",
+        "city": "Ebermannstadt",
         "country": "DE",
-        "lat": 49.72011,
-        "lon": 11.05789
+        "lat": 49.779167,
+        "lon": 11.184722
     },
     "metacommunity": "Freifunk Franken",
-    "name": "Freifunk Forchheim",
+    "name": "Freifunk Ebermannstadt",
     "nodeMaps": [
         {
             "mapType": "geographical",
-            "url": "https://monitoring.freifunk-franken.de/map?mapcenter=49.72011,11.05789,13"
+            "url": "https://monitoring.freifunk-franken.de/map?mapcenter=49.78085,11.18129,15"
         },
         {
             "mapType": "list/status",
@@ -31,6 +32,7 @@
     ],
     "socialprojects": {
         "contact": "fragen@freifunk-franken.de",
+        "number": 2,
         "website": "https://wiki.freifunk-franken.de/w/FreifunkFuerFluechtlinksunterkuenfte"
     },
     "state": {
@@ -39,9 +41,8 @@
             "Public Free Wifi",
             "Free internet access"
         ],
-
-        "lastchange": "2017-09-02T16:00:15.326418Z",
-        "nodes": 146
+        "lastchange": "2017-09-02T10:00:17.628786Z",
+        "nodes": 105
     },
     "support": {
         "donations": {
@@ -65,11 +66,18 @@
         ],
         "routing": [
             "batman-adv",
-            "babel"
+            "OLSR"
         ],
         "updatemode": [
             "manual"
         ]
     },
-    "url": "https://wiki.freifunk-franken.de/w/Hoods/Forchheim"
+    "timeline": [
+        {
+            "description": "inFranken.de: Die Ebermannstadter Feuerwehr hat freies Wlan",
+            "timestamp": "2015-04-13",
+            "url": "http://www.infranken.de/regional/forchheim/Die-Ebermannstadter-Feuerwehr-hat-freies-Wlan;art216,1014706"
+        }
+    ],
+    "url": "http://freifunk-ebs.de/"
 }
