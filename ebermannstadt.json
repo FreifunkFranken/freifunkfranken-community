@@ -1,7 +1,7 @@
 {
     "api": "0.4.14",
     "contact": {
-        "email": "fragen@freifunk-franken.de",
+        "email": "kontakt@freifunk-ebs.de",
         "facebook": "https://www.facebook.com/FreifunkFranken/",
         "irc": "irc://irc.freenode.net/#freifunk-franken",
         "ml": "https://lists.freifunk.net/mailman/listinfo/franken-freifunk.net/",
@@ -9,29 +9,17 @@
         "twitter": "@FreifunkFranken"
     },
     "location": {
-        "address": {
-            "Name": "Coworking Nürnberg",
-            "Street": "Josephsplatz ",
-            "Zipcode": "90403"
-        },
-        "city": "Nürnberg",
+        "city": "Ebermannstadt",
         "country": "DE",
-        "lat": 49.451719442437,
-        "lon": 11.073559012306
+        "lat": 49.779167,
+        "lon": 11.184722
     },
     "metacommunity": "Freifunk Franken",
-    "name": "Freifunk Nürnberg",
-    "networks": {
-        "ipv4": [
-            {
-                "network": "10.50.40.0/21"
-            }
-        ]
-    },
+    "name": "Freifunk Ebermannstadt",
     "nodeMaps": [
         {
             "mapType": "geographical",
-            "url": "https://monitoring.freifunk-franken.de/map?mapcenter=49.44916,11.08332,13"
+            "url": "https://monitoring.freifunk-franken.de/map?mapcenter=49.78085,11.18129,15"
         },
         {
             "mapType": "list/status",
@@ -42,16 +30,9 @@
             "url": "https://monitoring.freifunk-franken.de/api/nodelist"
         }
     ],
-    "services": [
-        {
-            "internalUri": "10.50.40.98",
-            "serviceDescription": "Jabber-Server",
-            "serviceName": "jabber.pm-ib.de"
-        }
-    ],
     "socialprojects": {
         "contact": "fragen@freifunk-franken.de",
-        "number": 3,
+        "number": 2,
         "website": "https://wiki.freifunk-franken.de/w/FreifunkFuerFluechtlinksunterkuenfte"
     },
     "state": {
@@ -60,8 +41,8 @@
             "Public Free Wifi",
             "Free internet access"
         ],
-        "lastchange": "2017-09-04T10:33:12.657502Z",
-        "nodes": 185
+        "lastchange": "2017-09-04T10:33:13.004156Z",
+        "nodes": 107
     },
     "techDetails": {
         "firmware": {
@@ -83,17 +64,10 @@
     },
     "timeline": [
         {
-            "description": "35 Router an die Piratenpartei Nürnberg übergeben",
-            "timestamp": "2013-07-27"
-        },
-        {
-            "description": "Erste Funkstrecke über 1,5 km",
-            "timestamp": "2014-09-29"
-        },
-        {
-            "description": " Dachinstallation im Nachbarschaftshaus Gostenhof kann beginnen",
-            "timestamp": "2014-12-19"
+            "description": "inFranken.de: Die Ebermannstadter Feuerwehr hat freies Wlan",
+            "timestamp": "2015-04-13",
+            "url": "http://www.infranken.de/regional/forchheim/Die-Ebermannstadter-Feuerwehr-hat-freies-Wlan;art216,1014706"
         }
     ],
-    "url": "https://freifunk-franken.de/"
+    "url": "http://freifunk-ebs.de/"
 }
