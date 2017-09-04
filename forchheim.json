@@ -1,7 +1,7 @@
 {
     "api": "0.4.14",
     "contact": {
-        "email": "kontakt@freifunk-ebs.de",
+        "email": "fragen@freifunk-franken.de",
         "facebook": "https://www.facebook.com/FreifunkFranken/",
         "irc": "irc://irc.freenode.net/#freifunk-franken",
         "ml": "https://lists.freifunk.net/mailman/listinfo/franken-freifunk.net/",
@@ -9,17 +9,17 @@
         "twitter": "@FreifunkFranken"
     },
     "location": {
-        "city": "Ebermannstadt",
+        "city": "Forchheim",
         "country": "DE",
-        "lat": 49.779167,
-        "lon": 11.184722
+        "lat": 49.72011,
+        "lon": 11.05789
     },
     "metacommunity": "Freifunk Franken",
-    "name": "Freifunk Ebermannstadt",
+    "name": "Freifunk Forchheim",
     "nodeMaps": [
         {
             "mapType": "geographical",
-            "url": "https://monitoring.freifunk-franken.de/map?mapcenter=49.78085,11.18129,15"
+            "url": "https://monitoring.freifunk-franken.de/map?mapcenter=49.72011,11.05789,13"
         },
         {
             "mapType": "list/status",
@@ -41,8 +41,8 @@
             "Public Free Wifi",
             "Free internet access"
         ],
-        "lastchange": "2017-09-04T04:00:15.044443Z",
-        "nodes": 107
+        "lastchange": "2017-09-04T10:00:17.996079Z",
+        "nodes": 312
     },
     "techDetails": {
         "firmware": {
@@ -55,19 +55,12 @@
             "vpninternational"
         ],
         "routing": [
-            "batman-adv",
-            "OLSR"
+            "Babel",
+            "batman-adv"
         ],
         "updatemode": [
             "manual"
         ]
     },
-    "timeline": [
-        {
-            "description": "inFranken.de: Die Ebermannstadter Feuerwehr hat freies Wlan",
-            "timestamp": "2015-04-13",
-            "url": "http://www.infranken.de/regional/forchheim/Die-Ebermannstadter-Feuerwehr-hat-freies-Wlan;art216,1014706"
-        }
-    ],
-    "url": "http://freifunk-ebs.de/"
+    "url": "https://wiki.freifunk-franken.de/w/Hoods/Forchheim"
 }

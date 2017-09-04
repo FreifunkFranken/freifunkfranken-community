@@ -55,7 +55,7 @@
             "Public Free Wifi",
             "Free internet access"
         ],
-        "lastchange": "2017-09-04T04:00:15.093739Z",
+        "lastchange": "2017-09-04T10:00:18.047919Z",
         "nodes": 79
     },
     "techDetails": {
@@ -69,8 +69,8 @@
             "vpninternational"
         ],
         "routing": [
-            "batman-adv",
-            "OLSR"
+            "Babel",
+            "batman-adv"
         ],
         "updatemode": [
             "manual"
