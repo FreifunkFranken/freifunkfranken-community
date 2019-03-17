@@ -13,6 +13,12 @@
             "category": "ics",
             "name": "Kalender",
             "url": "https://www.google.com/calendar/ical/2dsrm900h9iqdao2112527mjt4%40group.calendar.google.com/public/basic.ics"
+        },
+        {
+            "category": "blog",
+            "name": "Freifunk Franken News",
+            "type": "RSS",
+            "url": "https://news.freifunk-franken.de/category/news/feed/"
         }
     ],
     "location": {
@@ -70,8 +76,8 @@
             "Public Free Wifi",
             "Free internet access"
         ],
-        "lastchange": "2019-03-17T17:00:14.380613Z",
-        "nodes": 143
+        "lastchange": "2019-03-17T23:00:14.509792Z",
+        "nodes": 140
     },
     "techDetails": {
         "firmware": {

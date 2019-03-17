@@ -8,12 +8,14 @@
         "phone": "+49 9101 7018607",
         "twitter": "@FreifunkFranken"
     },
-    "feeds": {
-        "category": "blog",
-        "name": "Freifunk Franken News",
-        "type": "RSS",
-        "url": "https://news.freifunk-franken.de/category/news/feed/"
-    },
+    "feeds": [
+        {
+            "category": "blog",
+            "name": "Freifunk Franken News",
+            "type": "RSS",
+            "url": "https://news.freifunk-franken.de/category/news/feed/"
+        }
+    ],
     "location": {
         "city": "Crailsheim",
         "country": "DE",
@@ -47,7 +49,7 @@
             "Public Free Wifi",
             "Free internet access"
         ],
-        "lastchange": "2019-03-17T17:00:14.554346Z",
+        "lastchange": "2019-03-17T23:00:14.672654Z",
         "nodes": 30
     },
     "techDetails": {

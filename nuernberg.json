@@ -8,12 +8,14 @@
         "phone": "+49 9101 7018607",
         "twitter": "@FreifunkFranken"
     },
-    "feeds": {
-        "category": "blog",
-        "name": "Freifunk Franken News",
-        "type": "RSS",
-        "url": "https://news.freifunk-franken.de/category/news/feed/"
-    },
+    "feeds": [
+        {
+            "category": "blog",
+            "name": "Freifunk Franken News",
+            "type": "RSS",
+            "url": "https://news.freifunk-franken.de/category/news/feed/"
+        }
+    ],
     "location": {
         "address": {
             "Name": "Coworking Nürnberg",
@@ -66,8 +68,8 @@
             "Public Free Wifi",
             "Free internet access"
         ],
-        "lastchange": "2019-03-17T17:00:14.249320Z",
-        "nodes": 122
+        "lastchange": "2019-03-17T23:00:14.368381Z",
+        "nodes": 118
     },
     "techDetails": {
         "firmware": {

@@ -8,12 +8,14 @@
         "phone": "+49 170 8117104",
         "twitter": "@FreifunkFranken"
     },
-    "feeds": {
-        "category": "blog",
-        "name": "Freifunk Franken News",
-        "type": "RSS",
-        "url": "https://news.freifunk-franken.de/category/news/feed/"
-    },
+    "feeds": [
+        {
+            "category": "blog",
+            "name": "Freifunk Franken News",
+            "type": "RSS",
+            "url": "https://news.freifunk-franken.de/category/news/feed/"
+        }
+    ],
     "location": {
         "city": "Lauf an der Pegnitz",
         "country": "DE",
@@ -54,8 +56,8 @@
             "Public Free Wifi",
             "Free internet access"
         ],
-        "lastchange": "2019-03-17T17:00:14.943929Z",
-        "nodes": 49
+        "lastchange": "2019-03-17T23:00:15.058387Z",
+        "nodes": 48
     },
     "techDetails": {
         "firmware": {
