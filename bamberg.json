@@ -1,9 +1,9 @@
 {
-    "api": "0.4.14",
+    "api": "0.5.2",
     "contact": {
         "email": "kontakt@freifunk-bamberg.de",
         "facebook": "https://www.facebook.com/FreifunkFranken/",
-        "irc": "irc://irc.freenode.net/#freifunk-franken",
+        "irc": "irc://irc.libera.chat/#freifunk-franken",
         "ml": "https://lists.freifunk.net/mailman/listinfo/franken-freifunk.net/",
         "phone": "+49 9101 7018607",
         "twitter": "@FreifunkBa"
@@ -24,18 +24,13 @@
     "location": {
         "city": "Bamberg",
         "country": "DE",
-        "lat": 49.891667,
-        "lon": 10.8916672
+        "geoCode": {
+            "lat": 49.891667,
+            "lon": 10.8916672
+        }
     },
     "metacommunity": "Freifunk Franken",
     "name": "Freifunk Bamberg",
-    "networks": {
-        "ipv4": [
-            {
-                "network": "10.50.60.0/22"
-            }
-        ]
-    },
     "nodeMaps": [
         {
             "mapType": "geographical",
@@ -61,19 +56,26 @@
             "Public Free Wifi",
             "Free internet access"
         ],
-        "lastchange": "2023-01-10T17:00:11.401760Z",
-        "nodes": 93
+        "lastchange": "2023-01-10T19:51:30.918666Z",
+        "nodes": 90
     },
     "techDetails": {
         "firmware": {
-            "docs": "https://wiki.freifunk-franken.de/w/Portal:Firmware",
+            "docs": "https://docs.freifunk-franken.de/",
             "name": "Freifunk-Franken Firmware",
-            "url": "https://dev.freifunk-franken.de/firmware/"
+            "url": "https://git.freifunk-franken.de/freifunk-franken/firmware"
         },
         "legals": [
             "vpnnational",
             "vpninternational"
         ],
+        "networks": {
+            "ipv4": [
+                {
+                    "network": "10.50.60.0/22"
+                }
+            ]
+        },
         "routing": [
             "Babel",
             "batman-adv"

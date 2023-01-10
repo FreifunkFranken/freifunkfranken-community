@@ -1,9 +1,9 @@
 {
-    "api": "0.4.14",
+    "api": "0.5.2",
     "contact": {
         "email": "fragen@freifunk-franken.de",
         "facebook": "https://www.facebook.com/FreifunkFranken/",
-        "irc": "irc://irc.freenode.net/#freifunk-franken",
+        "irc": "irc://irc.libera.chat/#freifunk-franken",
         "ml": "https://lists.freifunk.net/mailman/listinfo/franken-freifunk.net/",
         "phone": "+49 9101 7018607",
         "twitter": "@FreifunkFranken"
@@ -19,8 +19,10 @@
     "location": {
         "city": "Forchheim",
         "country": "DE",
-        "lat": 49.72011,
-        "lon": 11.05789
+        "geoCode": {
+            "lat": 49.72011,
+            "lon": 11.05789
+        }
     },
     "metacommunity": "Freifunk Franken",
     "name": "Freifunk Forchheim",
@@ -49,14 +51,14 @@
             "Public Free Wifi",
             "Free internet access"
         ],
-        "lastchange": "2023-01-10T17:00:11.361787Z",
-        "nodes": 213
+        "lastchange": "2023-01-10T19:51:30.878043Z",
+        "nodes": 214
     },
     "techDetails": {
         "firmware": {
-            "docs": "https://wiki.freifunk-franken.de/w/Portal:Firmware",
+            "docs": "https://docs.freifunk-franken.de/",
             "name": "Freifunk-Franken Firmware",
-            "url": "https://dev.freifunk-franken.de/firmware/"
+            "url": "https://git.freifunk-franken.de/freifunk-franken/firmware"
         },
         "legals": [
             "vpnnational",

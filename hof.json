@@ -1,9 +1,9 @@
 {
-    "api": "0.4.14",
+    "api": "0.5.2",
     "contact": {
         "email": "fragen@freifunk-franken.de",
         "facebook": "https://www.facebook.com/FreifunkFranken/",
-        "irc": "irc://irc.freenode.net/#freifunk-franken",
+        "irc": "irc://irc.libera.chat/#freifunk-franken",
         "ml": "https://ml06.ispgateway.de/mailman/listinfo/freifunk-hof_mailingliste.wir-sind-hofer.de/",
         "phone": "+49 9101 7018607",
         "twitter": "@FreifunkFranken"
@@ -19,8 +19,10 @@
     "location": {
         "city": "Hof",
         "country": "DE",
-        "lat": 50.321944,
-        "lon": 11.918889
+        "geoCode": {
+            "lat": 50.321944,
+            "lon": 11.918889
+        }
     },
     "metacommunity": "Freifunk Franken",
     "name": "Freifunk Landkreis Hof",
@@ -49,14 +51,14 @@
             "Public Free Wifi",
             "Free internet access"
         ],
-        "lastchange": "2023-01-10T17:00:11.480884Z",
-        "nodes": 295
+        "lastchange": "2023-01-10T19:51:30.999611Z",
+        "nodes": 293
     },
     "techDetails": {
         "firmware": {
-            "docs": "https://wiki.freifunk-franken.de/w/Portal:Firmware",
+            "docs": "https://docs.freifunk-franken.de/",
             "name": "Freifunk-Franken Firmware",
-            "url": "https://dev.freifunk-franken.de/firmware/"
+            "url": "https://git.freifunk-franken.de/freifunk-franken/firmware"
         },
         "legals": [
             "vpnnational",

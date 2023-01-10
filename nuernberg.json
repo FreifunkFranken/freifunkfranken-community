@@ -1,9 +1,9 @@
 {
-    "api": "0.4.14",
+    "api": "0.5.2",
     "contact": {
         "email": "fragen@freifunk-franken.de",
         "facebook": "https://www.facebook.com/FreifunkFranken/",
-        "irc": "irc://irc.freenode.net/#freifunk-franken",
+        "irc": "irc://irc.libera.chat/#freifunk-franken",
         "ml": "https://lists.freifunk.net/mailman/listinfo/franken-freifunk.net/",
         "phone": "+49 9101 7018607",
         "twitter": "@FreifunkFranken"
@@ -18,24 +18,19 @@
     ],
     "location": {
         "address": {
-            "Name": "Coworking Nürnberg",
-            "Street": "Josephsplatz ",
-            "Zipcode": "90403"
+            "name": "Coworking Nürnberg",
+            "street": "Josephsplatz ",
+            "zipcode": "90403"
         },
         "city": "Nürnberg",
         "country": "DE",
-        "lat": 49.451719442437,
-        "lon": 11.073559012306
+        "geoCode": {
+            "lat": 49.451719442437,
+            "lon": 11.073559012306
+        }
     },
     "metacommunity": "Freifunk Franken",
     "name": "Freifunk Nürnberg",
-    "networks": {
-        "ipv4": [
-            {
-                "network": "10.50.40.0/21"
-            }
-        ]
-    },
     "nodeMaps": [
         {
             "mapType": "geographical",
@@ -50,13 +45,6 @@
             "url": "https://monitoring.freifunk-franken.de/api/nodelist"
         }
     ],
-    "services": [
-        {
-            "internalUri": "10.50.40.98",
-            "serviceDescription": "Jabber-Server",
-            "serviceName": "jabber.pm-ib.de"
-        }
-    ],
     "socialprojects": {
         "contact": "fragen@freifunk-franken.de",
         "number": 3,
@@ -68,19 +56,26 @@
             "Public Free Wifi",
             "Free internet access"
         ],
-        "lastchange": "2023-01-10T17:00:11.021687Z",
-        "nodes": 83
+        "lastchange": "2023-01-10T19:51:30.557161Z",
+        "nodes": 82
     },
     "techDetails": {
         "firmware": {
-            "docs": "https://wiki.freifunk-franken.de/w/Portal:Firmware",
+            "docs": "https://docs.freifunk-franken.de/",
             "name": "Freifunk-Franken Firmware",
-            "url": "https://dev.freifunk-franken.de/firmware/"
+            "url": "https://git.freifunk-franken.de/freifunk-franken/firmware"
         },
         "legals": [
             "vpnnational",
             "vpninternational"
         ],
+        "networks": {
+            "ipv4": [
+                {
+                    "network": "10.50.40.0/21"
+                }
+            ]
+        },
         "routing": [
             "Babel",
             "batman-adv"

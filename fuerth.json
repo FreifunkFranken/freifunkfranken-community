@@ -1,9 +1,9 @@
 {
-    "api": "0.4.14",
+    "api": "0.5.2",
     "contact": {
         "email": "fragen@freifunk-franken.de",
         "facebook": "https://www.facebook.com/FreifunkFranken/",
-        "irc": "irc://irc.freenode.net/#freifunk-franken",
+        "irc": "irc://irc.libera.chat/#freifunk-franken",
         "ml": "https://lists.freifunk.net/mailman/listinfo/franken-freifunk.net/",
         "phone": "+49 9101 7018607",
         "twitter": "@FreifunkFranken"
@@ -19,18 +19,13 @@
     "location": {
         "city": "Fürth",
         "country": "DE",
-        "lat": 49.47833,
-        "lon": 10.99027
+        "geoCode": {
+            "lat": 49.47833,
+            "lon": 10.99027
+        }
     },
     "metacommunity": "Freifunk Franken",
     "name": "Freifunk Fürth",
-    "networks": {
-        "ipv4": [
-            {
-                "network": "10.50.32.0/21"
-            }
-        ]
-    },
     "nodeMaps": [
         {
             "mapType": "geographical",
@@ -45,13 +40,6 @@
             "url": "https://monitoring.freifunk-franken.de/api/nodelist"
         }
     ],
-    "services": [
-        {
-            "internalUri": "ftp://anonymous@10.50.32.100",
-            "serviceDescription": "anonymous FTP (10GB)",
-            "serviceName": "MicroNAS"
-        }
-    ],
     "socialprojects": {
         "contact": "fragen@freifunk-franken.de",
         "number": 3,
@@ -63,19 +51,26 @@
             "Public Free Wifi",
             "Free internet access"
         ],
-        "lastchange": "2023-01-10T17:00:11.118703Z",
+        "lastchange": "2023-01-10T19:51:30.629610Z",
         "nodes": 39
     },
     "techDetails": {
         "firmware": {
-            "docs": "https://wiki.freifunk-franken.de/w/Portal:Firmware",
+            "docs": "https://docs.freifunk-franken.de/",
             "name": "Freifunk-Franken Firmware",
-            "url": "https://dev.freifunk-franken.de/firmware/"
+            "url": "https://git.freifunk-franken.de/freifunk-franken/firmware"
         },
         "legals": [
             "vpnnational",
             "vpninternational"
         ],
+        "networks": {
+            "ipv4": [
+                {
+                    "network": "10.50.32.0/21"
+                }
+            ]
+        },
         "routing": [
             "Babel",
             "batman-adv"
