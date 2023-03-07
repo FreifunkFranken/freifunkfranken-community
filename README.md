@@ -22,4 +22,4 @@ To keep our Freifunk Franken community files up to date they are currently gener
 Tools
 =====
 The following tools can be used to generate and/or update the Freifunk Franken community files:
-* https://github.com/FreifunkFranken/community.franken.freifunk.net/
+* https://github.com/FreifunkFranken/community.franken.freifunk.net
