@@ -51,7 +51,7 @@
             "Public Free Wifi",
             "Free internet access"
         ],
-        "lastchange": "2023-03-07T17:00:08.642634Z",
+        "lastchange": "2023-03-07T23:00:19.733976Z",
         "nodes": 127
     },
     "techDetails": {
@@ -76,7 +76,7 @@
         {
             "description": "inFranken.de: Die Ebermannstadter Feuerwehr hat freies Wlan",
             "timestamp": "2015-04-13",
-            "url": "http://www.infranken.de/regional/forchheim/Die-Ebermannstadter-Feuerwehr-hat-freies-Wlan;art216,1014706"
+            "url": "https://www.infranken.de/lk/forchheim/die-ebermannstadter-feuerwehr-hat-freies-wlan-art-1014706"
         }
     ],
     "url": "http://freifunk-ebs.de/"
